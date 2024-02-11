@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>接口设置</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/Public/static/layui/css/layui.css" media="all" />
+    <link rel="stylesheet" href="/Public/static/css/public.css" media="all" />
+    <style> .layui-form-label {
+        width: 160px !important;
+    }
+
+    .layui-input-block {
+        margin-left: 160px !important;
+    }
+    </style>
+</head>
+<body class="childrenBody">
+<form class="layui-form layui-form-pane" style="width:60%;padding-left: 10%; margin-top: 20px;" >
+    <div class="layui-form-item" pane="">
+        <div class="layui-input-block">
+            <volist name="api" id="v" key="k">
+                <input type="radio" lay-filter="channel" name="channel" value="{$v.id}" title="接口通道{$k}" <if condition="$v.isuse == 1">checked=""</if> >
+            </volist>
+        </div>
+    </div>
+    <volist name="api" id="v" key="k">
+        <div style="display: <if condition='$v.isuse == 1'>block <else/> none;</if>;" class="form-api form-api-{$v.id}">
+            <div class="layui-form-item" <if condition='$v.id neq 2'>hidden="true"</if> >
+                <label class="layui-form-label">所在国家{$v.nation}</label>
+                <div class="layui-input-block">
+                    <!-- <input type="text" name="nation[{$v.id}]" placeholder="所在国家"  autocomplete="off"  maxlength="255" value="{$v.nation}"  class="layui-input"> -->
+                    <select name="nation[{$v.id}]" lay-filter="nation">
+                        <option value="">-所在国家-</option>
+                        <volist name="nation" id="vo" key="ke">
+                            <if condition="$vo.code eq $v['nation']">
+                                <option value="{$vo.code}"  selected="">{$vo.name}</option>
+                            <else/>
+                                <option value="{$vo.code}">{$vo.name}</option>
+                            </if>
+                        </volist>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">接码等待时间(秒)</label>
+                <div class="layui-input-block">
+                    <input type="number" name="time[{$v.id}]" placeholder="接码等待时间"  autocomplete="off"  maxlength="255" value="{$v.time}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">购卡地址</label>
+                <div class="layui-input-block">
+                    <input type="text" name="url[{$v.id}]"  placeholder="购卡地址"  autocomplete="off"  maxlength="255" value="{$v.url}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">项目ID</label>
+                <div class="layui-input-block">
+                    <input type="text" name="project[{$v.id}]" placeholder="项目ID"  autocomplete="off"  maxlength="255" value="{$v.project}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">API用户名</label>
+                <div class="layui-input-block">
+                    <input type="text" name="username[{$v.id}]" placeholder="API用户名"  autocomplete="off"  maxlength="255" value="{$v.username}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">API密码</label>
+                <div class="layui-input-block">
+                    <input type="password" name="password[{$v.id}]" placeholder="API密码"  autocomplete="off"  maxlength="255" value="{$v.password}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">接码token</label>
+                <div class="layui-input-block">
+                    <input type="text" name="token[{$v.id}]" placeholder="接码token"  autocomplete="off"  maxlength="255" value="{$v.token}"  class="layui-input api-token">
+                    <button class="layui-btn btn-token" type="button" id="btn" data-api="{$v.id}">获取token</button>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">API地址</label>
+                <div class="layui-input-block">
+                    <input type="text" name="api[{$v.id}]" placeholder="API地址"  autocomplete="off"  maxlength="255" value="{$v.api}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">成功状态码</label>
+                <div class="layui-input-block">
+                    <input type="number" name="code[{$v.id}]" placeholder="成功状态码"  autocomplete="off"  maxlength="255" value="{$v.code}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">提示信息内容字段</label>
+                <div class="layui-input-block">
+                    <input type="text" name="msg[{$v.id}]" placeholder="提示信息内容字段"  autocomplete="off"  maxlength="255" value="{$v.msg}"  class="layui-input">
+                </div>
+
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">手机号内容字段</label>
+                <div class="layui-input-block">
+                    <input type="text" name="phone[{$v.id}]" placeholder="手机号内容字段"  autocomplete="off"  maxlength="255" value="{$v.phone}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">短信内容字段</label>
+                <div class="layui-input-block">
+                    <input type="text" name="sms[{$v.id}]" placeholder="短信内容字段"  autocomplete="off"  maxlength="255" value="{$v.sms}"  class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item" style="margin-top: 30px;">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit="" lay-filter="addData">提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </div>
+    </volist>
+</form>
+<script type="text/javascript" src="/Public/static/js/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="/Public/static/layui/layui.js"></script>
+<script type="text/javascript">
+    layui.use(['form','layer','laydate','upload','layedit'],function(){
+        let form = layui.form,
+            laydate = layui.laydate,
+            upload = layui.upload,
+            layedit = layui.layedit,
+            layer = parent.layer === undefined ? layui.layer : top.layer;
+
+        form.on("submit(addData)",function(data){
+            let index = layer.msg('数据提交中，请稍候',{icon: 16,time:false});
+            $.post("/admin/Api/index",data.field,function(res){
+                layer.close(index);
+
+                window.parent.window.parent.toast(res.msg,res.code);
+                layer.close(index);
+                if(0 === res.code){
+                    window.location.reload();
+                }
+            });
+            return false;
+        });
+
+
+        form.on('radio(channel)', function (data) {　　
+        　　var value = data.value;   //  当前选中的value值
+            $('.form-api').css("display","none");
+            $('.form-api-'+value).css("display","block");
+        });
+
+
+    });
+
+    $(".btn-token").click(function(){
+        let index = layer.msg('获取中，请稍候',{icon: 16,time:false});
+        let _this = $(this);
+        let id = _this.data('api');
+        $.post('/admin/api/gettoken',{id:id},function (res) {
+            layer.close(index);
+            if(0 === res.code){
+                layer.msg(res.msg,{icon: 6,time:2000});
+                // $("#token").val(res.token);
+                _this.prev().val(res.token);
+                return false;
+            }else{
+                layer.msg(res.msg,{icon:5,time:2000});
+                return false;
+            }
+        })
+    })
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>使用说明</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="/Public/static/layui/css/layui.css" media="all" />
+    <link rel="stylesheet" href="/Public/static/css/public.css" media="all" />
+</head>
+<body class="childrenBody">
+<form class="layui-form layui-form-pane" lay-filter="form1" style="width:90%;padding-left: 5%;">
+    <div class="layui-form-item">
+        <label class="layui-form-label" for="indexttitle">首页菜单标题</label>
+        <div class="layui-input-block">
+            <input type="text" name="indexttitle"placeholder="首页第三菜单标题" id="indexttitle"  class="layui-input" value="{$config.indexttitle}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" for="indextopenon">菜单开关</label>
+        <div class="layui-input-block">
+            <!-- <input type="text" name="indextopenon"placeholder="首页第三菜单启用关闭开关" id="indextopenon"  class="layui-input" value="{$config.indextopenon}"> -->
+            <input type="checkbox" name="indextopenon" lay-skin="switch" lay-filter="indextopenon" id="indextopenon" lay-text="ON|OFF">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" for="indextimg">第三菜单内容</label>
+        <div class="layui-input-block">
+            <div class="layui-upload-drag">
+                <if condition="$config.indextimg[0]">
+                    <div class="layui-uploads">
+                <else/>
+                    <i class="layui-icon"></i>
+                    <p>点击上传，或将文件拖拽到此处{$config.indextimg[0]}</p>
+                    <div class="layui-uploads layui-hide">
+                </if>
+                    <input type="hidden" name="indextimg[]" class="indextimg" value="{$config.indextimg.0}">
+                    <img src="{$config.indextimg.0}" alt="上传成功后渲染" style="width: 196px;height:196px;">
+                </div>
+            </div>
+            <div class="layui-upload-drag">
+                <if condition="$config.indextimg[0]">
+                    <div class="layui-uploads">
+                <else/>
+                    <i class="layui-icon"></i>
+                    <p>点击上传，或将文件拖拽到此处{$config.indextimg[1]}</p>
+                    <div class="layui-uploads layui-hide">
+                </if>
+                    <input type="hidden" name="indextimg[]" class="indextimg" value="{$config.indextimg.1}">
+                    <img src="{$config.indextimg.1}" alt="上传成功后渲染" style="width: 196px;height:196px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">图一描述</label>
+        <div class="layui-input-block">
+          <textarea placeholder="请输入首页菜单图片一文字描述" name="indextimgtip[]" id="add-indextimgtip" class="layui-textarea">{$config.indextimgtip.0}</textarea>
+        </div>
+    </div>
+    <div class="layui-form-item layui-form-text">
+        <label class="layui-form-label">图二描述</label>
+        <div class="layui-input-block">
+          <textarea placeholder="请输入首页菜单图片二文字描述" name="indextimgtip[]" id="add-indextimgtip" class="layui-textarea">{$config.indextimgtip.1}</textarea>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" for="content">菜单公告</label>
+        <div class="layui-input-block">
+            <textarea name="notice" placeholder="底部菜单公告" id="notice" class="layui-textarea" >{$config.notice|htmlspecialchars_decode}</textarea>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" for="content">说明内容</label>
+        <div class="layui-input-block">
+            <textarea name="content" placeholder="使用说明描述" id="content" class="layui-textarea"  >{$config.content|htmlspecialchars_decode}</textarea>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit="" lay-filter="addData">提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="/Public/static/js/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="/Public/static/layui/layui.js"></script>
+<script type="text/javascript">
+    layui.use(['form','layer','laydate','upload','layedit'],function(){
+        let form = layui.form,
+        laydate = layui.laydate,
+        upload = layui.upload,
+        layedit = layui.layedit,
+        layer = parent.layer === undefined ? layui.layer : top.layer;
+
+                    // layedit.set({
+                    //     tool:[
+                    //     'html', 'code', 'strong', 'italic', 'underline', 'del', 'addhr', '|', 'fontFomatt', 'colorpicker', 'face'
+                    //     , '|', 'left', 'center', 'right', '|', 'link', 'unlink','images', 'image_alt', 'video', 'anchors'
+                    // , '|','table', 'fullScreen'],
+                    // })
+
+                    let content = layedit.build('content', {
+                        uploadImage: {url: '/admin/FileUpload/upload', type: 'post'},
+                        height:200
+                    });
+                    $("iframe[textarea=content]").contents().find("body").blur(function(){
+                        layedit.sync(content);
+                    });
+                    let notice = layedit.build('notice', {
+                        uploadImage: {url: '/admin/FileUpload/upload', type: 'post'},
+                        height:200
+                    });
+                    $("iframe[textarea=notice]").contents().find("body").blur(function(){
+                        layedit.sync(notice);
+                    });
+        form.val("form1",{});
+
+        form.on("submit(addData)",function(data){
+            let index = layer.msg('数据提交中，请稍候',{icon: 16,time:false});
+            $.post("/admin/Using/index",{para:$('form').serialize()},function(res){
+                window.parent.window.parent.toast(res.info,res.code);
+                layer.close(index);
+                if(0 === res.code){
+                    parent.layer.closeAll();
+                    window.parent.tablist.reload();
+                }
+            });
+            return false;
+        });
+        var switchopen = '{$config.indextopenon}';
+        $('#indextopenon').prop('checked', switchopen == 'on' ? 'checked': '');
+        form.render();
+          //监听指定开关
+        form.on('switch(indextopenon)', function(data){
+            if (this.checked) {
+                layer.tips('温馨提示：首页第三菜单已开启',data.othis);
+                return;
+            }
+            layer.tips('温馨提示：首页第三菜单已关闭',data.othis);
+            
+        });
+
+        upload.render({
+            elem: '.layui-upload-drag',url: '/admin/FileUpload/upload',done: function(res,index){
+                var item = this.item;
+                var obj = item.find('.layui-hide').removeClass('layui-hide');
+                item.find('img').attr('src', res.data.src);
+                item.find('i').addClass('layui-hide');
+                item.find('p').addClass('layui-hide');
+                item.find("input[class='indextimg']").attr('value',res.data.src);
+                layer.msg('上传成功');
+                // console.log(res)
+            }
+        });
+    });
+</script>
+</body>
+</html>
