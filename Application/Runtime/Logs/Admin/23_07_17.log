@@ -1,0 +1,468 @@
+[ 2023-07-17T00:40:38+08:00 ] 159.138.63.41 /index.php/admin/login/index/jumpLink/%252Fadmin%252Findex%252Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2023-07-17T11:19:24+08:00 ] 206.238.221.233 /admin/admin.php?m=user&a=login&iframe=&sid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+ERR: 无法加载控制器:Admin.php
+
+[ 2023-07-17T14:16:25+08:00 ] 159.138.51.200 /index.php/admin/login/index/jumpLink/%252Fadmin%252Findex%252Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2023-07-17T14:48:10+08:00 ] 120.241.135.230 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+
+[ 2023-07-17T14:48:11+08:00 ] 120.241.135.230 /index.php/admin/login/index/jumpLink/%252Fadmin%252Findex%252Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2023-07-17T15:53:02+08:00 ] 159.138.46.73 /index.php/admin/login/index/jumpLink/%252Fadmin%252Findex%252Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001543s ]
+
+[ 2023-07-17T15:53:20+08:00 ] 159.138.46.73 /admin/login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SELECT * FROM `xman_admin_user` WHERE `username` = 'qinyuejun' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_auth_group_access` WHERE `uid` = 2  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: os /www/wwwroot/ovodw.com/Application/Admin/Controller/LoginController.class.php 第 94 行.
+SQL: INSERT INTO `xman_system_login_log` (`admin_user_id`,`ip`,`logtime`,`browser`,`os`) VALUES ('2','159.138.46.73','2023-07-17 15:53:20','Chrome/98.0.4758.102',NULL) [ RunTime:0.0063s ]
+SQL: SELECT `title` FROM `xman_auth_rule` WHERE `name` = 'admin/login/check' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2023-07-17T15:53:21+08:00 ] 159.138.46.73 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/index/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xman_auth_menus` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_admin_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_system_skin` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2023-07-17T15:53:21+08:00 ] 159.138.46.73 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/index/main' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2023-07-17T15:53:22+08:00 ] 159.138.46.73 /admin/index/getmenu/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/index/getmenu' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SELECT a.*,r.name as href,r.is_url FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '1' AND r.status = '1'  [ RunTime:0.0005s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '39'  [ RunTime:0.0005s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '40'  [ RunTime:0.0005s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '41'  [ RunTime:0.0006s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '42'  [ RunTime:0.0011s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '43'  [ RunTime:0.0006s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '44'  [ RunTime:0.0006s ]
+
+[ 2023-07-17T15:53:24+08:00 ] 159.138.46.73 /admin/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000548s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2023-07-17T15:53:25+08:00 ] 159.138.46.73 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: para /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 33 行.
+SQL: SELECT * FROM `xman_code` WHERE (  1  ) ORDER BY addtime DESC LIMIT 0,15   [ RunTime:0.0534s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2023-07-17T15:53:27+08:00 ] 159.138.46.73 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0015s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xman_code` WHERE (  1  and `code`='inzTwCAZK7ePn'  ) ORDER BY addtime DESC  [ RunTime:0.0583s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  and `code`='inzTwCAZK7ePn'  ) LIMIT 1   [ RunTime:0.0599s ]
+
+[ 2023-07-17T15:53:39+08:00 ] 159.138.46.73 /admin/Code/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/delete' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0013s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+SQL: DELETE FROM `xman_code` WHERE (  `id` in (185709) ) [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `xman_auth_rule` WHERE `name` = 'admin/code/delete' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `xman_system_operation_log` (`url`,`title`,`way_state`,`result`,`createtime`,`admin_user_id`,`message`,`usetime`,`usemem`) VALUES ('http://ovodc.com/admin/Code/delete?s=admin/Code/delete','卡密/删除','1','1','2023-07-17 15:53:39','2','删除成功','0.001989','7') [ RunTime:0.0060s ]
+
+[ 2023-07-17T15:53:40+08:00 ] 159.138.46.73 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0011s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_code` WHERE (  1  and `code`='inzTwCAZK7ePn'  ) ORDER BY addtime DESC  [ RunTime:0.0379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  and `code`='inzTwCAZK7ePn'  ) LIMIT 1   [ RunTime:0.0375s ]
+
+[ 2023-07-17T15:53:40+08:00 ] 159.138.46.73 /admin/Code/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/add' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0016s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0012s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2023-07-17T15:53:45+08:00 ] 159.138.46.73 /admin/code/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/getcode' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+SQL: INSERT INTO `xman_code` (`code`,`addtime`) VALUES ('d','2023-07-17 15:53:45') [ RunTime:0.0006s ]
+
+[ 2023-07-17T15:53:47+08:00 ] 159.138.46.73 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0014s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xman_code` WHERE (  1  and `code`='inzTwCAZK7ePn'  ) ORDER BY addtime DESC  [ RunTime:0.0546s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  and `code`='inzTwCAZK7ePn'  ) LIMIT 1   [ RunTime:0.0524s ]
+
+[ 2023-07-17T15:53:49+08:00 ] 159.138.46.73 /admin/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0014s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0013s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2023-07-17T15:53:50+08:00 ] 159.138.46.73 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0018s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0015s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: para /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 33 行.
+SQL: SELECT * FROM `xman_code` WHERE (  1  ) ORDER BY addtime DESC LIMIT 0,15   [ RunTime:0.0421s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2023-07-17T15:53:52+08:00 ] 159.138.46.73 /admin/Code/edit/id/188421
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/edit' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0024s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0017s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xman_code` WHERE `id` = 188421 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2023-07-17T15:53:57+08:00 ] 159.138.46.73 /admin/Code/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/edit' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0023s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0023s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0006s ]
+SQL: UPDATE `xman_code` SET `code`='inzTwCAZK7ePn' WHERE `id` = 188421 [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `xman_auth_rule` WHERE `name` = 'admin/code/edit' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `xman_system_operation_log` (`url`,`title`,`way_state`,`result`,`createtime`,`admin_user_id`,`message`,`usetime`,`usemem`) VALUES ('http://ovodc.com/admin/Code/edit?s=admin/Code/edit','卡密/修改','1','1','2023-07-17 15:53:57','2','操作成功','0.001806','8') [ RunTime:0.0069s ]
+
+[ 2023-07-17T15:53:57+08:00 ] 159.138.46.73 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0014s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: para /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 33 行.
+SQL: SELECT * FROM `xman_code` WHERE (  1  ) ORDER BY addtime DESC LIMIT 0,15   [ RunTime:0.0548s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2023-07-17T15:55:48+08:00 ] 159.138.46.73 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0017s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xman_code` WHERE (  1  and `code`='zzEpZUAKQh7Pf'  ) ORDER BY addtime DESC  [ RunTime:0.0561s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  and `code`='zzEpZUAKQh7Pf'  ) LIMIT 1   [ RunTime:0.0521s ]
+
+[ 2023-07-17T15:55:54+08:00 ] 159.138.46.73 /admin/number/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/number/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0011s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0013s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2023-07-17T15:55:55+08:00 ] 159.138.46.73 /admin/Number/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/number/index' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0014s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: para /www/wwwroot/ovodw.com/Application/Admin/Controller/NumberController.class.php 第 33 行.
+SQL: SELECT * FROM `xman_number` WHERE (  1  ) ORDER BY status ASC,createtime DESC LIMIT 0,15   [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_number` WHERE (  1  ) LIMIT 1   [ RunTime:0.0005s ]
+

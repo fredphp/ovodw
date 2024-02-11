@@ -1,0 +1,1943 @@
+[ 2024-02-09T13:45:09+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xman_config` [ RunTime:0.0011s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xman_notice` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2024-02-09T13:45:16+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2024-02-09T13:45:18+08:00 ] 192.168.65.1 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = '1024' LIMIT 1   [ RunTime:0.0998s ]
+
+[ 2024-02-09T13:46:45+08:00 ] 192.168.65.1 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = '1ieluZU1K58' LIMIT 1   [ RunTime:0.0986s ]
+
+[ 2024-02-09T13:46:46+08:00 ] 192.168.65.1 /home/index/getphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = '1ieluZU1K58' LIMIT 1   [ RunTime:0.0982s ]
+SQL: UPDATE `xman_code` SET `phone`='19237014409',`createphonetime`='1707457606' WHERE `code` = '1ieluZU1K58' [ RunTime:0.1168s ]
+
+[ 2024-02-09T13:46:48+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:46:58+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:47:08+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:47:19+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:47:28+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:47:38+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:47:48+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:47:58+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:48:07+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+ERR: Think\Controller:_log方法不存在！
+
+[ 2024-02-09T13:48:17+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+ERR: Think\Controller:_log方法不存在！
+
+[ 2024-02-09T13:48:28+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:48:38+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:48:47+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:48:57+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:49:08+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:49:19+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T13:49:21+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2024-02-09T14:02:30+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 241 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2024-02-09T14:02:31+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 237 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 241 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2024-02-09T14:04:52+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 244 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 244 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 248 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 248 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2024-02-09T14:04:52+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 244 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 244 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 248 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 248 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2024-02-09T14:06:15+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 251 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 251 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 255 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2024-02-09T14:06:31+08:00 ] 192.168.65.1 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = '3HuBhBpbegI' LIMIT 1   [ RunTime:0.0993s ]
+
+[ 2024-02-09T14:06:33+08:00 ] 192.168.65.1 /home/index/getphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = '3HuBhBpbegI' LIMIT 1   [ RunTime:0.0956s ]
+SQL: UPDATE `xman_code` SET `phone`='19237013142',`createphonetime`='1707458793' WHERE `code` = '3HuBhBpbegI' [ RunTime:0.1147s ]
+
+[ 2024-02-09T14:06:34+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:06:43+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:06:53+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:07:05+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:07:25+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:07:45+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:08:05+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:08:25+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:08:46+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:09:06+08:00 ] 192.168.65.1 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /var/www/ovodw/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2024-02-09T14:09:06+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 259 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 259 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2024-02-09T14:10:11+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 256 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 256 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 260 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 260 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2024-02-09T14:10:28+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 261 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 261 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2024-02-09T14:22:02+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 261 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 261 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2024-02-09T14:22:03+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000018s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 261 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 261 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 265 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2024-02-09T14:26:25+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2024-02-09T14:26:30+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2024-02-09T14:26:30+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2024-02-09T14:26:31+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2024-02-09T14:26:31+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2024-02-09T14:26:31+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2024-02-09T14:26:31+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2024-02-09T14:26:31+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2024-02-09T14:26:32+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000033s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2024-02-09T14:26:32+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2024-02-09T14:28:25+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 267 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2024-02-09T14:29:36+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2024-02-09T14:29:39+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2024-02-09T14:29:39+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2024-02-09T14:30:06+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2024-02-09T14:30:08+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2024-02-09T14:30:08+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2024-02-09T14:30:08+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000018s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2024-02-09T14:30:08+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2024-02-09T14:30:08+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 270 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2024-02-09T14:30:38+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2024-02-09T14:30:42+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2024-02-09T14:30:42+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2024-02-09T14:30:43+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2024-02-09T14:30:43+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2024-02-09T14:30:43+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000023s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2024-02-09T14:30:44+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2024-02-09T14:32:11+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000019s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2024-02-09T14:32:12+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2024-02-09T14:32:12+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2024-02-09T14:32:12+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000021s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2024-02-09T14:32:12+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2024-02-09T14:32:13+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 170 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 273 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 277 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2024-02-09T14:32:38+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 275 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2024-02-09T14:32:39+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 275 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2024-02-09T14:32:39+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 275 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2024-02-09T14:35:14+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000024s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 271 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 275 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 275 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2024-02-09T14:36:22+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000020s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 171 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 274 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 278 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 278 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2024-02-09T14:37:03+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2024-02-09T14:37:03+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000022s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2024-02-09T14:37:04+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2024-02-09T14:37:04+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2024-02-09T14:37:04+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000025s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004265s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2024-02-09T14:37:04+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 173 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 276 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 280 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+

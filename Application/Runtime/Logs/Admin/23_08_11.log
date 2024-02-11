@@ -1,0 +1,438 @@
+[ 2023-08-11T05:48:11+08:00 ] 106.55.200.45 /index.php/admin/login/index/jumpLink/%252Fadmin%252Findex%252Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2023-08-11T19:52:43+08:00 ] 101.44.83.251 /index.php/admin/login/index/jumpLink/%252Fadmin%252Findex%252Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2023-08-11T19:52:58+08:00 ] 101.44.83.251 /admin/login/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SELECT * FROM `xman_admin_user` WHERE `username` = 'qinyuejun' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xman_auth_group_access` WHERE `uid` = 2  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: os /www/wwwroot/ovodw.com/Application/Admin/Controller/LoginController.class.php 第 94 行.
+SQL: INSERT INTO `xman_system_login_log` (`admin_user_id`,`ip`,`logtime`,`browser`,`os`) VALUES ('2','101.44.83.251','2023-08-11 19:52:58','Chrome/109.0.5414.86',NULL) [ RunTime:0.0034s ]
+SQL: SELECT `title` FROM `xman_auth_rule` WHERE `name` = 'admin/login/check' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2023-08-11T19:52:59+08:00 ] 101.44.83.251 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/index/index' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_auth_menus` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_admin_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_system_skin` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2023-08-11T19:53:00+08:00 ] 101.44.83.251 /index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/index/main' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2023-08-11T19:53:00+08:00 ] 101.44.83.251 /admin/index/getmenu/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/index/getmenu' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT a.*,r.name as href,r.is_url FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '1' AND r.status = '1'  [ RunTime:0.0004s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '39'  [ RunTime:0.0003s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '40'  [ RunTime:0.0003s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '41'  [ RunTime:0.0003s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '42'  [ RunTime:0.0003s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '43'  [ RunTime:0.0003s ]
+SQL: SELECT a.*,r.name as href FROM xman_auth_menus as a left JOIN xman_auth_rule as r on r.id=a.rule_id  WHERE a.pid = '44'  [ RunTime:0.0003s ]
+
+[ 2023-08-11T19:53:02+08:00 ] 101.44.83.251 /admin/code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2023-08-11T19:53:03+08:00 ] 101.44.83.251 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0010s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: para /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 33 行.
+SQL: SELECT * FROM `xman_code` WHERE (  1  ) ORDER BY addtime DESC LIMIT 0,15   [ RunTime:0.0615s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2023-08-11T19:53:05+08:00 ] 101.44.83.251 /admin/Code/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/add' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0013s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2023-08-11T19:53:12+08:00 ] 101.44.83.251 /admin/code/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/getcode' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+NOTIC: [8] Undefined variable: key /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 119 行.
+SQL: INSERT INTO `xman_code` (`code`,`addtime`) VALUES ('sgvKFqxwWym','2023-08-11 19:53:12'),('5v6C80iAxMd','2023-08-11 19:53:12'),('ta6FSl3Fp1q','2023-08-11 19:53:12'),('ZkgvHwlP6x5','2023-08-11 19:53:12'),('qkW0icCMjJC','2023-08-11 19:53:12'),('Foal9ueKvCZ','2023-08-11 19:53:12'),('rHZcdjvjfWA','2023-08-11 19:53:12'),('5fW77UAJ9zI','2023-08-11 19:53:12'),('rHeUWeuEp3F','2023-08-11 19:53:12'),('HtoPEkSpHFm','2023-08-11 19:53:12'),('fkaC2Jz5Ms2','2023-08-11 19:53:12'),('72PgKQqAzKv','2023-08-11 19:53:12'),('gsgbaU2UAzF','2023-08-11 19:53:12'),('5a9RI9B7w6d','2023-08-11 19:53:12'),('RdzB7pwfQfU','2023-08-11 19:53:12'),('SajyTEoP4so','2023-08-11 19:53:12'),('5omer7D2zQR','2023-08-11 19:53:12'),('rmfT6A0Ew6i','2023-08-11 19:53:12'),('iSSgnKFSBbt','2023-08-11 19:53:12'),('aZsMgI1nBHz','2023-08-11 19:53:12'),('QpwdpmQ6qB9','2023-08-11 19:53:12'),('RJaIWzZyY73','2023-08-11 19:53:12'),('Fjnr9rrDtzT','2023-08-11 19:53:12'),('ciJok0WsrzT','2023-08-11 19:53:12'),('nmvoIfyeqar','2023-08-11 19:53:12'),('aIdKlP6rHpR','2023-08-11 19:53:12'),('5iiU2nkkRPv','2023-08-11 19:53:12'),('4Uer7wE8dul','2023-08-11 19:53:12'),('vkmArm8aFZT','2023-08-11 19:53:12'),('xe44JjZzpnS','2023-08-11 19:53:12'),('aYtURpyzmpr','2023-08-11 19:53:12'),('Ygig8vgPvEe','2023-08-11 19:53:12'),('yFuW6ETbsmT','2023-08-11 19:53:12'),('6t7v14K42ms','2023-08-11 19:53:12'),('jWB3zvbq5Wr','2023-08-11 19:53:12'),('c8zsgKilgKp','2023-08-11 19:53:12'),('i5k1uhkhuFa','2023-08-11 19:53:12'),('dQIF6748uKQ','2023-08-11 19:53:12'),('4KpWlAHaiPg','2023-08-11 19:53:12'),('Dc9dQmMBvAI','2023-08-11 19:53:12'),('8yDfKtqUkzp','2023-08-11 19:53:12'),('Fr02nvknq5u','2023-08-11 19:53:12'),('IYI14UrnQ1n','2023-08-11 19:53:12'),('o1gETEQDJYm','2023-08-11 19:53:12'),('W9z4e2iwksa','2023-08-11 19:53:12'),('xPABkRuP4Fo','2023-08-11 19:53:12'),('APJSWhZvg18','2023-08-11 19:53:12'),('l7WnEZ3pPPT','2023-08-11 19:53:12'),('H3IYFuuxJK0','2023-08-11 19:53:12'),('KD8hZaYSc1i','2023-08-11 19:53:12'),('Q6lc6om1jE2','2023-08-11 19:53:12'),('cSr9seqaerC','2023-08-11 19:53:12'),('m5dSdyRb1C7','2023-08-11 19:53:12'),('1gqZ6MqvnhT','2023-08-11 19:53:12'),('7zzv8yCd7Rf','2023-08-11 19:53:12'),('ci8rfZSnSTe','2023-08-11 19:53:12'),('r79gHvbRJ9Q','2023-08-11 19:53:12'),('zWt02jEKHRB','2023-08-11 19:53:12'),('ZiDRFRKvRu8','2023-08-11 19:53:12'),('w41rWUwtHRb','2023-08-11 19:53:12'),('rSCQyy4kg5F','2023-08-11 19:53:12'),('bmIRqrPe929','2023-08-11 19:53:12'),('s9dnW9UKfEZ','2023-08-11 19:53:12'),('b4lPgUlk7DH','2023-08-11 19:53:12'),('Tc8WPrMEE7n','2023-08-11 19:53:12'),('Wdr9PZoIeD6','2023-08-11 19:53:12'),('hhr3q4vMp6F','2023-08-11 19:53:12'),('oJQ5T6vCYtF','2023-08-11 19:53:12'),('e8xnJj2QgkD','2023-08-11 19:53:12'),('9Wcwe6rDUBn','2023-08-11 19:53:12'),('oWFw9fEilFq','2023-08-11 19:53:12'),('gipIdxC5Cwy','2023-08-11 19:53:12'),('C8vlhAD1HgT','2023-08-11 19:53:12'),('Q0ahrSnd6vK','2023-08-11 19:53:12'),('cHRw7jkCffx','2023-08-11 19:53:12'),('u1SoWo7PjPw','2023-08-11 19:53:12'),('9uTfsxeJ9A9','2023-08-11 19:53:12'),('1JH0I1FyDrw','2023-08-11 19:53:12'),('T4B18q1kfxj','2023-08-11 19:53:12'),('M3eyiz3S4FA','2023-08-11 19:53:12'),('ndJsTxMzgsd','2023-08-11 19:53:12'),('8f6H7ffpQbJ','2023-08-11 19:53:12'),('aHYjkm1S16x','2023-08-11 19:53:12'),('tpPA8k7y8Aq','2023-08-11 19:53:12'),('40IxzgJHlC7','2023-08-11 19:53:12'),('0619SnbBtKC','2023-08-11 19:53:12'),('q7xJm9Klh25','2023-08-11 19:53:12'),('WAJfvjR8YcB','2023-08-11 19:53:12'),('QZHEaW93Ww6','2023-08-11 19:53:12'),('CQpjWnZtn1U','2023-08-11 19:53:12'),('Ww5CgAYPHsv','2023-08-11 19:53:12'),('9HITcktUIeh','2023-08-11 19:53:12'),('WMWieM84Yxn','2023-08-11 19:53:12'),('ZanyTdhZSfA','2023-08-11 19:53:12'),('9yi5vHDUfW1','2023-08-11 19:53:12'),('8yFJa3z9yDB','2023-08-11 19:53:12'),('ypu89HrPF7y','2023-08-11 19:53:12'),('R0afawYJb00','2023-08-11 19:53:12'),('Tbgq1ooruW2','2023-08-11 19:53:12'),('Z6hPW60bZPy','2023-08-11 19:53:12'),('IYBx3iA64pK','2023-08-11 19:53:12'),('177yuAcSQ5d','2023-08-11 19:53:12'),('ba2cfsJIqds','2023-08-11 19:53:12'),('rneqjkPjeDj','2023-08-11 19:53:12'),('plf2s1IHd78','2023-08-11 19:53:12'),('UA5lgfJwkep','2023-08-11 19:53:12'),('CiBRzlj7jdv','2023-08-11 19:53:12'),('CWuZiUsiBEa','2023-08-11 19:53:12'),('rSIKiJPjdon','2023-08-11 19:53:12'),('l4D9ZWD1FPR','2023-08-11 19:53:12'),('m8SSzQfbqdW','2023-08-11 19:53:12'),('cfugPtj7lf0','2023-08-11 19:53:12'),('JfnImfEwU3S','2023-08-11 19:53:12'),('wEiTUH5P4Js','2023-08-11 19:53:12'),('KPdjCjAQm7P','2023-08-11 19:53:12'),('92JEP1jCjvT','2023-08-11 19:53:12'),('br7h5Evjasq','2023-08-11 19:53:12'),('USiElHUxIi2','2023-08-11 19:53:12'),('dzPSmabw5Jn','2023-08-11 19:53:12'),('kJrARDUx8v5','2023-08-11 19:53:12'),('Un4H7C9ersJ','2023-08-11 19:53:12'),('l01mlqizKFm','2023-08-11 19:53:12'),('HEP6HhUBPK0','2023-08-11 19:53:12'),('steqPFpxfH8','2023-08-11 19:53:12'),('rn00cTziike','2023-08-11 19:53:12'),('SoZ0kqcFmFv','2023-08-11 19:53:12'),('8Df5K7SBPky','2023-08-11 19:53:12'),('KAFPKU3KZhy','2023-08-11 19:53:12'),('pre17ID8UCR','2023-08-11 19:53:12'),('Qx81sUu0MJ6','2023-08-11 19:53:12'),('u8ofedgqo4x','2023-08-11 19:53:12'),('9nJZhFlPPK0','2023-08-11 19:53:12'),('wFfo2Rtysbq','2023-08-11 19:53:12'),('zEu1xPdv5wl','2023-08-11 19:53:12'),('2C0wqTyYi2f','2023-08-11 19:53:12'),('tlQ4o5pr27S','2023-08-11 19:53:12'),('jHTd5ggHe8a','2023-08-11 19:53:12'),('Y0ZZtSx2say','2023-08-11 19:53:12'),('HCytz3csrWj','2023-08-11 19:53:12'),('AEPp4qcKmaw','2023-08-11 19:53:12'),('jR5AJuQUd3b','2023-08-11 19:53:12'),('FUbJlSaAEeD','2023-08-11 19:53:12'),('uTu61jIhtQj','2023-08-11 19:53:12'),('b90fdje1Hz9','2023-08-11 19:53:12'),('yJ8e2YpMeAz','2023-08-11 19:53:12'),('FEYwrr5gUC1','2023-08-11 19:53:12'),('S5SFlumqSaF','2023-08-11 19:53:12'),('1DnDWoWAkBB','2023-08-11 19:53:12'),('ApIMk7Ri1w4','2023-08-11 19:53:12'),('aHuHfasJb2b','2023-08-11 19:53:12'),('pK4sCHvEugn','2023-08-11 19:53:12'),('EiohCab61Iq','2023-08-11 19:53:12'),('UhSAe3SmDY5','2023-08-11 19:53:12'),('46A9RKdDq5p','2023-08-11 19:53:12'),('eF7p8eHIA4U','2023-08-11 19:53:12'),('H9hUbxuuIIr','2023-08-11 19:53:12'),('ysTm3aZubie','2023-08-11 19:53:12'),('R5cWpRUBTul','2023-08-11 19:53:12'),('6nq6R9kuDdE','2023-08-11 19:53:12'),('HsKp97afli6','2023-08-11 19:53:12'),('ClUT9dwyc9Y','2023-08-11 19:53:12'),('h5lAv3PMvi8','2023-08-11 19:53:12'),('zFm6CRluK32','2023-08-11 19:53:12'),('cQCutzj4U4D','2023-08-11 19:53:12'),('g98sMJZ6y49','2023-08-11 19:53:12'),('enCrZYk9FvA','2023-08-11 19:53:12'),('aZAQS9cS4YU','2023-08-11 19:53:12'),('Mds10sj3voW','2023-08-11 19:53:12'),('hBESFu1KQsq','2023-08-11 19:53:12'),('sSbbhhPcC1r','2023-08-11 19:53:12'),('S1BFTMuZjsf','2023-08-11 19:53:12'),('WWamK7J0Avr','2023-08-11 19:53:12'),('xsIqhak7EC7','2023-08-11 19:53:12'),('lBFonMUqaWg','2023-08-11 19:53:12'),('CuyawUFvf8s','2023-08-11 19:53:12'),('jpSf0r4g5w0','2023-08-11 19:53:12'),('jcZTui1lcP7','2023-08-11 19:53:12'),('3aaU8kseREt','2023-08-11 19:53:12'),('8mmC9WzHIRk','2023-08-11 19:53:12'),('njfz44eQvZe','2023-08-11 19:53:12'),('E1HY0aP2Pdq','2023-08-11 19:53:12'),('gy0JMUroEFy','2023-08-11 19:53:12'),('CdgeoYIbRet','2023-08-11 19:53:12'),('SYIHRf9FHyl','2023-08-11 19:53:12'),('vFf0HcvbhlF','2023-08-11 19:53:12'),('jF2FY10mvZa','2023-08-11 19:53:12'),('5w4jCMg7qUI','2023-08-11 19:53:12'),('AmoSZogE1kH','2023-08-11 19:53:12'),('HK7vKuyzW3T','2023-08-11 19:53:12'),('B5x6QxgpZPo','2023-08-11 19:53:12'),('P1RKtr0fjCa','2023-08-11 19:53:12'),('klMtxnexR6D','2023-08-11 19:53:12'),('a4m5pD4jz3S','2023-08-11 19:53:12'),('slfjQvgD7Cs','2023-08-11 19:53:12'),('xa2Dd3mmJJh','2023-08-11 19:53:12'),('fft6MWhjfbC','2023-08-11 19:53:12'),('Tfa75ZauB90','2023-08-11 19:53:12'),('y9zvMP9auCk','2023-08-11 19:53:12'),('YgF78WYwZ2l','2023-08-11 19:53:12'),('ww5Mcf3gJWf','2023-08-11 19:53:12') [ RunTime:0.0029s ]
+
+[ 2023-08-11T19:53:14+08:00 ] 101.44.83.251 /admin/Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_auth_rule` WHERE `status` = 1 AND `name` = 'admin/code/index' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_group_access` [ RunTime:0.0012s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM xman_auth_group_access a INNER JOIN xman_auth_group g on a.group_id=g.id  WHERE ( a.uid='2' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xman_auth_rule` [ RunTime:0.0011s ]
+SQL: SELECT `condition`,`name` FROM `xman_auth_rule` WHERE `id` IN ('27','154','29','12','65','66','17','1','2','5','6','10','18','41','42','43','32','37','38','39','40','19','44','45','46','47','48','50','149','150','151','152','153','156','157','159','160','161') AND `type` = 1 AND `status` = 1  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: para /www/wwwroot/ovodw.com/Application/Admin/Controller/CodeController.class.php 第 33 行.
+SQL: SELECT * FROM `xman_code` WHERE (  1  ) ORDER BY addtime DESC LIMIT 0,15   [ RunTime:0.0591s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xman_code` WHERE (  1  ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2023-08-11T19:54:00+08:00 ] 180.163.28.114 /admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2023-08-11T19:54:01+08:00 ] 180.163.28.114 /index.php/admin/login/index/jumpLink/%252Fadmin%252Findex%252Findex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

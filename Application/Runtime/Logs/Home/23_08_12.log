@@ -1,0 +1,1150 @@
+[ 2023-08-12T23:20:08+08:00 ] 47.92.37.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2023-08-12T23:21:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:21:37+08:00 ] 124.71.105.212 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2023-08-12T23:22:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0023s ]
+
+[ 2023-08-12T23:22:04+08:00 ] 124.71.105.212 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2023-08-12T23:23:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0032s ]
+
+[ 2023-08-12T23:23:34+08:00 ] 115.60.161.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2023-08-12T23:24:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0015s ]
+
+[ 2023-08-12T23:25:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+
+[ 2023-08-12T23:25:47+08:00 ] 223.74.118.62 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2023-08-12T23:25:52+08:00 ] 182.150.59.253 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2023-08-12T23:26:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:26:10+08:00 ] 182.150.59.253 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = '	DgJFMm2oMbm' LIMIT 1   [ RunTime:0.0512s ]
+
+[ 2023-08-12T23:26:30+08:00 ] 182.150.59.253 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'DgJFMm2oMbm' LIMIT 1   [ RunTime:0.0518s ]
+
+[ 2023-08-12T23:26:31+08:00 ] 182.150.59.253 /home/index/getphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'DgJFMm2oMbm' LIMIT 1   [ RunTime:0.0526s ]
+SQL: UPDATE `xman_code` SET `phone`='17062840887',`createphonetime`='1691853991' WHERE `code` = 'DgJFMm2oMbm' [ RunTime:0.1793s ]
+
+[ 2023-08-12T23:26:32+08:00 ] 182.150.59.253 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:26:42+08:00 ] 182.150.59.253 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:26:52+08:00 ] 182.150.59.253 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:27:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0013s ]
+
+[ 2023-08-12T23:27:02+08:00 ] 182.150.59.253 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:27:12+08:00 ] 182.150.59.253 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+SQL: UPDATE `xman_code` SET `usertime`='2023-08-12 23:27:12',`sms`='【NSM】[PUBG] 验证码： 873709。验证码有效 3 分钟',`status`='1',`phone`='17062840887' WHERE `code` = 'DgJFMm2oMbm' [ RunTime:0.2409s ]
+
+[ 2023-08-12T23:28:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:28:37+08:00 ] 58.211.23.183 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2023-08-12T23:29:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0020s ]
+
+[ 2023-08-12T23:29:07+08:00 ] 210.71.196.46 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2023-08-12T23:29:34+08:00 ] 36.150.60.24 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2023-08-12T23:30:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:31:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:32:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:33:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:34:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:35:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:36:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023789s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:36:24+08:00 ] 58.211.23.183 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2023-08-12T23:37:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0006s ]
+
+[ 2023-08-12T23:38:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:39:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:40:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:41:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0110s ]
+
+[ 2023-08-12T23:41:17+08:00 ] 106.89.179.33 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2023-08-12T23:41:23+08:00 ] 119.143.153.130 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2023-08-12T23:41:29+08:00 ] 106.89.179.33 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'pFiEuEHlbot19' LIMIT 1   [ RunTime:0.0478s ]
+
+[ 2023-08-12T23:41:31+08:00 ] 106.89.179.33 /home/index/getphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'pFiEuEHlbot19' LIMIT 1   [ RunTime:0.0468s ]
+SQL: UPDATE `xman_code` SET `phone`='17062846893',`createphonetime`='1691854891' WHERE `code` = 'pFiEuEHlbot19' [ RunTime:0.2434s ]
+
+[ 2023-08-12T23:41:31+08:00 ] 106.89.179.33 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:41:41+08:00 ] 106.89.179.33 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:41:51+08:00 ] 60.207.178.100 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2023-08-12T23:41:51+08:00 ] 106.89.179.33 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:42:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0124s ]
+
+[ 2023-08-12T23:42:02+08:00 ] 106.89.179.33 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+SQL: UPDATE `xman_code` SET `usertime`='2023-08-12 23:42:02',`sms`='【NSM】[PUBG] 验证码： 613518。验证码有效 3 分钟',`status`='1',`phone`='17062846893' WHERE `code` = 'pFiEuEHlbot19' [ RunTime:0.2653s ]
+
+[ 2023-08-12T23:42:03+08:00 ] 60.207.178.100 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'FiIsqhdprqEBY' LIMIT 1   [ RunTime:0.0436s ]
+
+[ 2023-08-12T23:42:04+08:00 ] 60.207.178.100 /home/index/getphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'FiIsqhdprqEBY' LIMIT 1   [ RunTime:0.0449s ]
+SQL: UPDATE `xman_code` SET `phone`='17062840081',`createphonetime`='1691854923' WHERE `code` = 'FiIsqhdprqEBY' [ RunTime:0.2403s ]
+
+[ 2023-08-12T23:42:04+08:00 ] 60.207.178.100 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:42:16+08:00 ] 60.207.178.100 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:42:27+08:00 ] 60.207.178.100 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:42:31+08:00 ] 115.60.161.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2023-08-12T23:42:31+08:00 ] 115.60.161.119 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'mkB1KQCxwKI' LIMIT 1   [ RunTime:0.0504s ]
+
+[ 2023-08-12T23:42:33+08:00 ] 115.60.161.119 /home/index/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'mkB1KQCxwKI' LIMIT 1   [ RunTime:0.0535s ]
+
+[ 2023-08-12T23:42:34+08:00 ] 115.60.161.119 /home/index/getphone
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xman_code` WHERE `code` = 'mkB1KQCxwKI' LIMIT 1   [ RunTime:0.0531s ]
+SQL: UPDATE `xman_code` SET `phone`='17062847378',`createphonetime`='1691854954' WHERE `code` = 'mkB1KQCxwKI' [ RunTime:0.2416s ]
+
+[ 2023-08-12T23:42:34+08:00 ] 115.60.161.119 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:42:38+08:00 ] 60.207.178.100 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:42:44+08:00 ] 115.60.161.119 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:42:49+08:00 ] 60.207.178.100 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+SQL: UPDATE `xman_code` SET `usertime`='2023-08-12 23:42:48',`sms`='【NSM】[PUBG] 验证码： 698026。验证码有效 3 分钟',`status`='1',`phone`='17062840081' WHERE `code` = 'FiIsqhdprqEBY' [ RunTime:0.2361s ]
+
+[ 2023-08-12T23:42:54+08:00 ] 115.60.161.119 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:43:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:43:04+08:00 ] 115.60.161.119 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+
+[ 2023-08-12T23:43:14+08:00 ] 115.60.161.119 /home/index/getcodes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: key /www/wwwroot/ovodw.com/Application/Home/Controller/IndexController.class.php 第 194 行.
+SQL: UPDATE `xman_code` SET `usertime`='2023-08-12 23:43:14',`sms`='【NSM】[PUBG] 验证码： 551489。验证码有效 3 分钟',`status`='1',`phone`='17062847378' WHERE `code` = 'mkB1KQCxwKI' [ RunTime:0.2255s ]
+
+[ 2023-08-12T23:44:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0009s ]
+
+[ 2023-08-12T23:45:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:45:31+08:00 ] 167.248.133.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002027s ]
+
+[ 2023-08-12T23:46:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0014s ]
+
+[ 2023-08-12T23:47:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:48:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0224s ]
+
+[ 2023-08-12T23:49:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:50:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:51:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0022s ]
+
+[ 2023-08-12T23:52:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:53:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0009s ]
+
+[ 2023-08-12T23:54:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0212s ]
+
+[ 2023-08-12T23:54:22+08:00 ] 58.211.23.183 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: indextopenon /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Use of undefined constant indextimg - assumed 'indextimg' /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /www/wwwroot/ovodw.com/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2023-08-12T23:55:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+
+[ 2023-08-12T23:56:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0002s ]
+
+[ 2023-08-12T23:57:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0023s ]
+
+[ 2023-08-12T23:58:01+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0010s ]
+
+[ 2023-08-12T23:59:02+08:00 ] 103.56.112.49 /home/index/region
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0003s ]
+

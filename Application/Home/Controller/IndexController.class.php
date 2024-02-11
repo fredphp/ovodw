@@ -13,7 +13,7 @@ class IndexController extends Controller
     protected $pkey;
     protected $cptime;
     protected $region;
-    protected $country,$project;
+    protected $pointPhone,$country,$project;
     protected $err = [
             '-1'    => 'Token不存在',
             '-2'    => 'pkey无效',
@@ -202,10 +202,12 @@ class IndexController extends Controller
             $phone = $_POST['phone'];
             $project = !empty($_POST['project']) ? $_POST['project'] : (isset($config['project']) ? $config['project'] : '');
             $country = !empty($_POST['country']) ? $_POST['country'] : 'CN';
+            $pointphone = !empty($_POST['phone']) ? $_POST['phone'] :'';
             $this->project = $project;
             $this->country = $country;
             $this->codes = $codes;
             $this->phone = $phone;
+            $this->pointPhone = $pointphone;
             $this->pkey = $_POST['key'];
             $this->region = $_POST['region'];
             //$api = $config['api']."getMessage?token=".$config['token']."&sid=".$config['project']."&".$config['phone']."=".$phone;
@@ -217,7 +219,7 @@ class IndexController extends Controller
                     $api = $config['api'].'/sms/?api=getMessage&token='.$config['token'].'&sid='.$this->project.'&country_code='.$this->country.'&phone='.$phone;
                     break;
                 case 2:
-                    $api = $config['api'].'?act=getPhoneCode&token='.$config['token'].'&pkey='.$this->pkey;
+                    $api = $config['api'].'?act=getPhoneCode&token='.$config['token'].'&pkey='.$this->pkey.'&country='.$this->country.'&mobile='.$this->phone;
                     $row = M('code')->where(['code' => $this->codes])->field('createphonetime')->find();
                     $this->cptime = $row['createphonetime'];
                     break;
@@ -258,6 +260,9 @@ class IndexController extends Controller
                     $result = $result[count($result) - 1 ];
                     $result = explode('=',$result);
                     $data['phone'] = $result[count($result) - 1 ];
+                    $data['point_phone'] = $this->pointPhone;
+                    $data['country'] = $this->country;
+                    $data['projectid'] = $this->project;
                     $ss = M('code')->where($where)->save($data);
                     $arr['code'] = 0;
                      
@@ -273,6 +278,9 @@ class IndexController extends Controller
                     $data['usertime'] =  date('Y-m-d H:i:s',time());
                     $data['sms'] = $r[2];
                     $data['status'] = 1;
+                    $data['point_phone'] = $this->pointPhone;
+                    $data['country'] = $this->country;
+                    $data['projectid'] = $this->project;
                     $data['phone'] = $this->phone;
                     $ss = M('code')->where($where)->save($data);
 

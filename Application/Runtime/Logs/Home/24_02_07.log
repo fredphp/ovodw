@@ -1,0 +1,31 @@
+[ 2024-02-07T13:12:48+08:00 ] 192.168.65.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `xman_api` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xman_api` WHERE ( isuse=1 ) LIMIT 1   [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `xman_config` [ RunTime:0.0010s ]
+SQL: SELECT `name`,`value` FROM `xman_config` WHERE `name` IN ('sitenname','webtitle')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xman_notice` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xman_notice` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: indextopenon /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 158 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 230 行.
+NOTIC: [2] Use of undefined constant indextimg - assumed 'indextimg' (this will throw an Error in a future version of PHP) /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+NOTIC: [8] Array to string conversion /var/www/ovodw/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 234 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+

@@ -428,7 +428,7 @@
 
     function getCodes()
     {
-        $.post('/home/index/getcodes',{phone:sphone,code:code,key:pk,region:region,project:proid,country:country},function(result1){
+        $.post('/home/index/getcodes',{phone:sphone,code:code,key:pk,region:region,project:proid,country:country,pointphone:pointPhone},function(result1){
             if(result1.code == 0){
                 clearTimeout(set);
                 clearTimeout(sets);

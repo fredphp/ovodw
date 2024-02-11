@@ -1,0 +1,18 @@
+[ 2022-09-10T17:37:47+08:00 ] 103.127.83.14 /.%252e/.%252e/.%252e/.%252e/.%252e/.%252e/.%252e/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+ERR: 无法加载控制器:..
+
+[ 2022-09-10T19:10:32+08:00 ] 103.127.83.14 /.%252e/.%252e/.%252e/.%252e/.%252e/.%252e/.%252e/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+ERR: 无法加载控制器:..
+

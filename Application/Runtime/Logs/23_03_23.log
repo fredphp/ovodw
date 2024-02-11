@@ -1,0 +1,18 @@
+[ 2023-03-23T03:40:56+08:00 ] 183.165.237.177 /?s=../%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=md5&vars%5B1%5D%5B%5D=HelloThinkPHP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+ERR: 无法加载控制器:\think\app
+
+[ 2023-03-23T03:40:56+08:00 ] 183.165.237.177 /?s=../%5Cthink%5CContainer/invokefunction&function=call_user_func_array&vars%5B0%5D=md5&vars%5B1%5D%5B%5D=HelloThinkPHP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载控制器:\think\Container
+

@@ -1,0 +1,63 @@
+[ 2023-10-27T09:08:22+08:00 ] 218.150.6.100 http://103.56.112.49:80/admin/pma/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+ERR: 无法加载控制器:Pma
+
+[ 2023-10-27T09:08:24+08:00 ] 218.150.6.100 http://103.56.112.49:80/admin/scripts/setup.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+ERR: 无法加载控制器:Scripts
+
+[ 2023-10-27T09:08:29+08:00 ] 218.150.6.100 http://103.56.112.49:80/admin/phpmyadmin/scripts/setup.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载控制器:Phpmyadmin
+
+[ 2023-10-27T13:23:36+08:00 ] 45.141.87.251 /admin/ckeditor/plugins/ajaxplorer/phpunit/src/Util/PHP/eval-stdin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: 无法加载控制器:Ckeditor
+
+[ 2023-10-27T13:23:37+08:00 ] 45.141.87.251 /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载控制器:Vendor
+
+[ 2023-10-27T17:35:55+08:00 ] 45.141.87.251 /admin/ckeditor/plugins/ajaxplorer/phpunit/src/Util/PHP/eval-stdin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+ERR: 无法加载控制器:Ckeditor
+
+[ 2023-10-27T17:35:57+08:00 ] 45.141.87.251 /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+ERR: 无法加载控制器:Vendor
+

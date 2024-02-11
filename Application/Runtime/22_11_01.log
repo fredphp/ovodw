@@ -1,0 +1,54 @@
+[ 2022-11-01T00:00:24+08:00 ] 8.37.43.183 /home.php?s=../../../../../../../../../../../../../../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载控制器:..
+
+[ 2022-11-01T00:00:46+08:00 ] 8.37.43.183 /index.php?s=../../../../../../../../../../../../../../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载控制器:..
+
+[ 2022-11-01T00:01:59+08:00 ] 8.37.43.183 /home/?s=../../../../../../../../../../../../../../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+ERR: 无法加载控制器:..
+
+[ 2022-11-01T00:03:55+08:00 ] 8.37.43.183 /home/index/?s=../../../../../../../../../../../../../../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+ERR: 无法加载控制器:..
+
+[ 2022-11-01T00:04:28+08:00 ] 8.37.43.183 /home/index/getphone?s=../../../../../../../../../../../../../../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+ERR: 无法加载控制器:..
+
+[ 2022-11-01T00:04:49+08:00 ] 8.37.43.183 /home/index/getcodes?s=../../../../../../../../../../../../../../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+ERR: 无法加载控制器:..
+
