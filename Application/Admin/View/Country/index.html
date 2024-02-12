@@ -65,15 +65,15 @@
                     if (d.type == '1') return "1号接口";
                     if (d.type == '2') return "2号接口";
                 }},
-				{field:'code',title:'国家区号',align:'center'},
+				{field:'code',title:'国家区号',width: 100,align:'center'},
                 {field:'word',title:'国家代码',align:'center'},
                 {field:'country_name',title:'国家名称',align:'center'},
                 {field:'country_enname',title:'国家英文名称',align:'center'},
-				{field:'status',title:'状态',align:'center',templet:function(d){
+				{field:'status',title:'状态',width: 100,align:'center',templet:function(d){
                 	if(d.status === '0') return '<a class="layui-btn layui-btn-xs layui-btn-primary" title="隐藏">隐藏</a>';
 					if(d.status === '1') return '<a class="layui-btn layui-btn-xs" title="显示">显示</a>';
             	}},
-                {field:'isdefault',title:'默认状态',align:'center',templet:function(d){
+                {field:'isdefault',title:'默认状态',width: 100,align:'center',templet:function(d){
                     if(d.isd === '0') return '<a class="layui-btn layui-btn-xs layui-btn-primary" title="不默认">不默认</a>';
                     if(d.isd === '1') return '<a class="layui-btn layui-btn-xs" title="默认">默认</a>';
                 }},
@@ -89,7 +89,7 @@
                         }
                         return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm layui-btn-danger" lay-event="release" title="隐藏">隐藏</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>';
                     }
-                }, fixed: "right", align: "center"}
+                }, fixed: "right", align: "center",width: 250}
             ]]
         });
         //搜索
