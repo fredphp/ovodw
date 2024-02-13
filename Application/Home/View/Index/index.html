@@ -205,7 +205,7 @@
                                                 style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">国家</label>
                                             <div class="layui-input-block">
                                                 <select name="country" lay-verify="required" id="country" style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; background-color:#222; color:white;border:1px solid #666;">
-                                                    <option value="">-选择-</option>
+                                                    <!-- <option value="">-选择-</option> -->
                                                     <foreach name="country" item="vo" >
                                                         <if condition="$vo.isd == 1">
                                                             <option value="{$vo.code}" selected>{$vo.name}</option>
