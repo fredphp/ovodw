@@ -157,6 +157,14 @@
             background-color: #9E9E9E;
             color: #fff;
         }
+        .layui-buy-url {
+            margin-top: 5px;
+        }
+        .layui-buy-title {
+            padding: 5px;
+            border-top: 1px solid #ccc;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 
@@ -186,7 +194,7 @@
                                             style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">项目</label>
                                         <div class="layui-input-block">
                                             <select name="project" lay-verify="required" id="project" style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; background-color:#222; color:white;border:1px solid #666;">
-                                                <option value="">-选择-</option>
+                                                <!-- <option value="">-选择-</option> -->
                                                 <?php if(is_array($project)): foreach($project as $key=>$vo): if($vo["status"] == 1): ?><option value="<?php echo ($vo["proid"]); ?>" selected><?php echo ($vo["name"]); ?></option>
                                                     <?php else: ?>
                                                         <option value="<?php echo ($vo["proid"]); ?>"><?php echo ($vo["name"]); ?></option><?php endif; endforeach; endif; ?>
@@ -198,7 +206,7 @@
                                                 style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">国家</label>
                                             <div class="layui-input-block">
                                                 <select name="country" lay-verify="required" id="country" style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; background-color:#222; color:white;border:1px solid #666;">
-                                                    <option value="">-选择-</option>
+                                                    <!-- <option value="">-选择-</option> -->
                                                     <?php if(is_array($country)): foreach($country as $key=>$vo): if($vo["isd"] == 1): ?><option value="<?php echo ($vo["code"]); ?>" selected><?php echo ($vo["name"]); ?></option>
                                                         <?php else: ?>
                                                             <option value="<?php echo ($vo["code"]); ?>"><?php echo ($vo["name"]); ?></option><?php endif; endforeach; endif; ?>
@@ -269,8 +277,17 @@
                                 style="width: 65%;color: #ffffff;border-radius: 30px;" id="btn" tid="1">
                                 登录获取手机号
                             </button>
+                            <?php if($buyurl): ?><div class="layui-buy-url">
+                                    <div class="layui-buy-title">卡密购买链接</div>
+                                    <div class="layui-btn-group">
+                                        <?php if(is_array($buyurl)): foreach($buyurl as $key=>$vo): ?><a href="<?php echo ($vo["url"]); ?>" class="layui-btn layui-btn-primary layui-btn-sm layui-buy-item" target="_blank" style="margin-left: 5px !important;border-radius: 5px;">
+                                                <?php echo ($vo["title"]); ?>
+                                            </a><?php endforeach; endif; ?>
+                                    </div>
+                                </div><?php endif; ?>
                         </div>
                     </div>
+                    
                     <div class="layui-tab-item">
                         <span> 使用说明</span>
                         <?php echo (htmlspecialchars_decode($extra["content"])); ?>

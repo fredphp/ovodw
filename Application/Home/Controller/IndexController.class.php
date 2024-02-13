@@ -13,7 +13,7 @@ class IndexController extends Controller
     protected $pkey;
     protected $cptime;
     protected $region;
-    protected $pointPhone,$country,$project;
+    protected $pointPhone,$country,$project,$oneapi,$twoapi;
     protected $err = [
             '-1'    => 'Token不存在',
             '-2'    => 'pkey无效',
@@ -25,10 +25,15 @@ class IndexController extends Controller
     {
         parent::__construct();
         $config = M('api')->where('isuse=1')->find();
-        $cnf = M('config')->where(array('name' => array('in',array('sitenname','webtitle'))))->field('name,value')->select();
+        $cnf = M('config')->where(array('name' => array('in',array('sitenname','webtitle','oneapi','twoapi'))))->field('name,value')->select();
         $cnf = array_column($cnf,'value', 'name');
         $name = $cnf['sitenname'] ? $cnf['sitenname'] : '绝地求生';
         $title = $cnf['webtitle'] ? $cnf['webtitle'] : '绝地求生手机验证 - PUBG手机验证,竞技比赛手机验证,排位赛手机验证,绝地求生手机号码绑定';
+        $this->oneapi = $cnf['oneapi'] ? $cnf['oneapi'] : 0;
+        $this->twoapi = $cnf['twoapi'] ? $cnf['twoapi'] :0;
+
+        // $this->assign('oneapi',$this->oneapi);
+        // $this->assign('twoapi',$this->twoapi);
         $this->assign('name',$name);
         $this->assign('title',$title);
         $this->config = $config;
@@ -43,13 +48,21 @@ class IndexController extends Controller
 
 
         $extra = require_once APP_PATH . 'Common/Conf/extra.php';
-
+        $buyurl = [];
         //获取国家
         if ($this->config['id'] == 2) {
             $country = M('nation')->where('status=1')->field("code,name,isdefault as isd")->select();
             $this->assign('country',$country);
+            if ($this->twoapi > 0) {
+                $buyurl = M('buyurl')->where('status = 1 and type='.$this->config['id'])->field('title,url')->select();
+            }
+        } else {
+            if ($this->oneapi > 0) {
+                $buyurl = M('buyurl')->where('status = 1 and type='.$this->config['id'])->field('title,url')->select();
+            }
         }
         
+        $this->assign('buyurl',$buyurl);
         //获取项目
         $pro = M('project')->where('type='.$this->config['id'])->field('name,vals as proid,status')->select();
         $this->assign('extra',$extra);

@@ -157,6 +157,14 @@
             background-color: #9E9E9E;
             color: #fff;
         }
+        .layui-buy-url {
+            margin-top: 5px;
+        }
+        .layui-buy-title {
+            padding: 5px;
+            border-top: 1px solid #ccc;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 
@@ -281,8 +289,21 @@
                                 style="width: 65%;color: #ffffff;border-radius: 30px;" id="btn" tid="1">
                                 登录获取手机号
                             </button>
+                            <if condition="$buyurl">
+                                <div class="layui-buy-url">
+                                    <div class="layui-buy-title">卡密购买链接</div>
+                                    <div class="layui-btn-group">
+                                        <foreach name="buyurl" item="vo" >
+                                            <a href="{$vo.url}" class="layui-btn layui-btn-primary layui-btn-sm layui-buy-item" target="_blank" style="margin-left: 5px !important;border-radius: 5px;">
+                                                {$vo.title}
+                                            </a>
+                                        </foreach>
+                                    </div>
+                                </div>
+                            </if>
                         </div>
                     </div>
+                    
                     <div class="layui-tab-item">
                         <span> 使用说明</span>
                         {$extra.content|htmlspecialchars_decode}

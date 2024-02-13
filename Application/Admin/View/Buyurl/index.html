@@ -1,8 +1,8 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>手机号释放管理</title>
+    <title>购买链接管理</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -18,22 +18,6 @@
             <div class="layui-inline">
                 <div class="layui-input-inline" style="width: 16%">
                 <input type="search" name="id" autocomplete="off" class="layui-input" placeholder="ID"/>
-            </div>
-            <div class="layui-input-inline" style="width: 16%">
-                <select title="状态" lay-search name="type">
-                    <option value="">类型</option>
-                    <option value='1' >1号接口</option>
-                    <option value='2' >2号接口</option>
-
-                </select>
-            </div>
-            <div class="layui-input-inline" style="width: 16%">
-                <select title="状态" lay-search name="status">
-                    <option value="">状态</option>
-                    <option value='0' >未使用</option>
-                    <option value='1' >已使用</option>
-
-                </select>
             </div>
             
 
@@ -66,7 +50,7 @@
         tablist = table.render({
             elem: '#table',
             toolbar: '#barDemo',
-            url: '/admin/Project/index',
+            url: '/admin/Buyurl/index',
             method: 'post',
             page:true,
             limit: 15,
@@ -77,23 +61,29 @@
             cols: [[
                 {type: "checkbox", fixed: "left", width: 50},
 				{field:'id',title:'ID',align:'center',width:120},
-				{field:'type',title:'接口类型',align:'center',templet:function(d) {
+                {field:'type',title:'接口类型',align:'center',templet:function(d) {
                     if (d.type == '1') return "1号接口";
                     if (d.type == '2') return "2号接口";
                 }},
-                {field:'name',title:'项目名称',align:'center'},
-                {field:'vals',title:'项目ID',align:'center'},
-				{field:'status',title:'状态',align:'center',templet:function(d){
-                	if(d.status === '0') return '<a class="layui-btn layui-btn-xs layui-btn-primary" title="未使用">未使用</a>';
-					if(d.status === '1') return '<a class="layui-btn layui-btn-xs" title="未使用">当前使用</a>';
+				{field:'title',title:'购买平台',width: 100,align:'center'},
+                {field:'url',title:'购买地址',align:'center'},
+				{field:'status',title:'状态',width: 100,align:'center',templet:function(d){
+                	if(d.status === '0') return '<a class="layui-btn layui-btn-xs layui-btn-primary" title="隐藏">隐藏</a>';
+					if(d.status === '1') return '<a class="layui-btn layui-btn-xs" title="显示">显示</a>';
             	}},
-				{title: '操作',width:250,templet:function(d) {
+				{title: '操作',templet:function(d) {
                     if (d.status == 0) {
-                        return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm " lay-event="release" title="使用"><i class="layui-icon layui-icon-rate-solid"></i></a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>'
+                        if (d.isd == 0) {
+                            return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm " lay-event="release" title="显示">显示</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>';
+                        }
+                        return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm " lay-event="release" title="显示">显示</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>'
                     } else {
-                        return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>';
+                        if (d.isd == 0) {
+                            return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm layui-btn-danger" lay-event="release" title="隐藏">隐藏</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>';
+                        }
+                        return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm layui-btn-danger" lay-event="release" title="隐藏">隐藏</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>';
                     }
-                }, fixed: "right", align: "center"}
+                }, fixed: "right", align: "center",width: 250}
             ]]
         });
         //搜索
@@ -116,16 +106,16 @@
         }
 
         $(".add_btn").on('click',function () {
-            addoredit('/admin/Project/add','添加');
+            addoredit('/admin/Buyurl/add','添加');
         });
         //列表操作
         table.on('tool(table)', function (obj) {
             let layEvent = obj.event,
                 data = obj.data;
             if (layEvent === 'release') {
-            	layer.confirm('确定选中使用此项目ID号？', {icon: 3, title: '提示'}, function (index) {
+            	layer.confirm('确定操作当前国家信息？', {icon: 3, title: '提示'}, function (index) {
                     layer.close(index);
-                    $.post("/admin/Project/setDefult",{'id':data.id},function(data){
+                    $.post("/admin/Buyurl/setDefult",{'id':data.id},function(data){
                         window.parent.toast(data.info,data.code);
                         if(data.code === 0)
                             tablist.reload();
@@ -134,15 +124,15 @@
             } else if (layEvent === 'del') { //删除
                 layer.confirm('确定删除这条数据？', {icon: 3, title: '提示'}, function (index) {
                     layer.close(index);
-                    $.post("/admin/Project/delete",{'id':data.id},function(data){
+                    $.post("/admin/Buyurl/delete",{'id':data.id},function(data){
                         window.parent.toast(data.info,data.code);
                         if(data.code === 0)
                             tablist.reload();
                     });
                 });
             } else if (layEvent === 'edit') { //编辑
-                addoredit('/admin/Project/edit/id/'+data.id,'修改');
-            }
+                addoredit('/admin/Buyurl/edit/id/'+data.id,'修改');
+            } 
         });
         
         if(window.parent.NProgress){
