@@ -87,7 +87,7 @@
                 	if(d.status === '0') return '<a class="layui-btn layui-btn-xs layui-btn-primary" title="未使用">未使用</a>';
 					if(d.status === '1') return '<a class="layui-btn layui-btn-xs" title="未使用">当前使用</a>';
             	}},
-				{title: '操作',templet:function(d) {
+				{title: '操作',width:250,templet:function(d) {
                     if (d.status == 0) {
                         return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm " lay-event="release" title="使用"><i class="layui-icon layui-icon-rate-solid"></i></a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>'
                     } else {

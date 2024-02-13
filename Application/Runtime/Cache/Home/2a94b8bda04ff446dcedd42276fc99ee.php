@@ -193,18 +193,18 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="layui-form-item">
-                                        <label class="layui-form-label"
-                                            style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">国家</label>
-                                        <div class="layui-input-block">
-                                            <select name="country" lay-verify="required" id="country" style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; background-color:#222; color:white;border:1px solid #666;">
-                                                <option value="">-选择-</option>
-                                                <?php if(is_array($country)): foreach($country as $key=>$vo): if($vo["isd"] == 1): ?><option value="<?php echo ($vo["word"]); ?>" selected>+<?php echo ($vo["code"]); ?>/<?php echo ($vo["name"]); ?>/<?php echo ($vo["ename"]); ?></option>
-                                                    <?php else: ?>
-                                                        <option value="<?php echo ($vo["word"]); ?>">+<?php echo ($vo["code"]); ?>/<?php echo ($vo["name"]); ?>/<?php echo ($vo["ename"]); ?></option><?php endif; endforeach; endif; ?>
-                                            </select>
-                                        </div>
-                                    </div>
+                                    <?php if($config["id"] == 2): ?><div class="layui-form-item">
+                                            <label class="layui-form-label"
+                                                style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">国家</label>
+                                            <div class="layui-input-block">
+                                                <select name="country" lay-verify="required" id="country" style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; background-color:#222; color:white;border:1px solid #666;">
+                                                    <option value="">-选择-</option>
+                                                    <?php if(is_array($country)): foreach($country as $key=>$vo): if($vo["isd"] == 1): ?><option value="<?php echo ($vo["code"]); ?>" selected><?php echo ($vo["name"]); ?></option>
+                                                        <?php else: ?>
+                                                            <option value="<?php echo ($vo["code"]); ?>"><?php echo ($vo["name"]); ?></option><?php endif; endforeach; endif; ?>
+                                                </select>
+                                            </div>
+                                        </div><?php endif; ?>
                                     <div class="layui-form-item">
                                         <label class="layui-form-label"
                                             style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">指定手机号</label>
@@ -414,7 +414,7 @@
 
     function getCodes()
     {
-        $.post('/home/index/getcodes',{phone:sphone,code:code,key:pk,region:region,project:proid,country:country},function(result1){
+        $.post('/home/index/getcodes',{phone:sphone,code:code,key:pk,region:region,project:proid,country:country,pointphone:pointPhone},function(result1){
             if(result1.code == 0){
                 clearTimeout(set);
                 clearTimeout(sets);

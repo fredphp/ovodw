@@ -199,22 +199,24 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="layui-form-item">
-                                        <label class="layui-form-label"
-                                            style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">国家</label>
-                                        <div class="layui-input-block">
-                                            <select name="country" lay-verify="required" id="country" style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; background-color:#222; color:white;border:1px solid #666;">
-                                                <option value="">-选择-</option>
-                                                <foreach name="country" item="vo" >
-                                                    <if condition="$vo.isd == 1">
-                                                        <option value="{$vo.word}" selected>+{$vo.code}/{$vo.name}/{$vo.ename}</option>
-                                                    <else />
-                                                        <option value="{$vo.word}">+{$vo.code}/{$vo.name}/{$vo.ename}</option>
-                                                    </if>
-                                                </foreach>
-                                            </select>
+                                    <if condition="$config.id == 2">
+                                        <div class="layui-form-item">
+                                            <label class="layui-form-label"
+                                                style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">国家</label>
+                                            <div class="layui-input-block">
+                                                <select name="country" lay-verify="required" id="country" style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; background-color:#222; color:white;border:1px solid #666;">
+                                                    <option value="">-选择-</option>
+                                                    <foreach name="country" item="vo" >
+                                                        <if condition="$vo.isd == 1">
+                                                            <option value="{$vo.code}" selected>{$vo.name}</option>
+                                                        <else />
+                                                            <option value="{$vo.code}">{$vo.name}</option>
+                                                        </if>
+                                                    </foreach>
+                                                </select>
+                                            </div>
                                         </div>
-                                    </div>
+                                    </if>
                                     <div class="layui-form-item">
                                         <label class="layui-form-label"
                                             style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">指定手机号</label>

@@ -1,8 +1,8 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>手机号释放管理</title>
+    <title>国家列表管理</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -50,7 +50,7 @@
         tablist = table.render({
             elem: '#table',
             toolbar: '#barDemo',
-            url: '/admin/Country/index',
+            url: '/admin/Nation/index',
             method: 'post',
             page:true,
             limit: 15,
@@ -60,36 +60,30 @@
             id: "table",
             cols: [[
                 {type: "checkbox", fixed: "left", width: 50},
-				{field:'id',title:'ID',align:'center',width:120},
-                {field:'type',title:'接口类型',align:'center',templet:function(d) {
-                    if (d.type == '1') return "1号接口";
-                    if (d.type == '2') return "2号接口";
-                }},
-				{field:'code',title:'国家区号',align:'center'},
-                {field:'word',title:'国家代码',align:'center'},
-                {field:'country_name',title:'国家名称',align:'center'},
-                {field:'country_enname',title:'国家英文名称',align:'center'},
-				{field:'status',title:'状态',align:'center',templet:function(d){
+				{field:'number',title:'国家区号',align:'center',width:120},
+				{field:'code',title:'国家代码',width: 100,align:'center'},
+                {field:'name',title:'国家名称',align:'center'},
+				{field:'status',title:'状态',width: 100,align:'center',templet:function(d){
                 	if(d.status === '0') return '<a class="layui-btn layui-btn-xs layui-btn-primary" title="隐藏">隐藏</a>';
 					if(d.status === '1') return '<a class="layui-btn layui-btn-xs" title="显示">显示</a>';
             	}},
-                {field:'isdefault',title:'默认状态',align:'center',templet:function(d){
-                    if(d.isd === '0') return '<a class="layui-btn layui-btn-xs layui-btn-primary" title="不默认">不默认</a>';
-                    if(d.isd === '1') return '<a class="layui-btn layui-btn-xs" title="默认">默认</a>';
+                {field:'isdefault',title:'默认状态',width: 100,align:'center',templet:function(d){
+                    if(d.isdefault === '0') return '<a class="layui-btn layui-btn-xs layui-btn-primary" title="不默认">不默认</a>';
+                    if(d.isdefault === '1') return '<a class="layui-btn layui-btn-xs" title="默认">默认</a>';
                 }},
 				{title: '操作',templet:function(d) {
                     if (d.status == 0) {
-                        if (d.isd == 0) {
+                        if (d.isdefault == 0) {
                             return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm " lay-event="release" title="显示">显示</a><a class="layui-btn layui-btn-sm " lay-event="isdefault" title="设置为默认">设置为默认</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>';
                         }
                         return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm " lay-event="release" title="显示">显示</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>'
                     } else {
-                        if (d.isd == 0) {
+                        if (d.isdefault == 0) {
                             return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm layui-btn-danger" lay-event="release" title="隐藏">隐藏</a><a class="layui-btn layui-btn-sm " lay-event="isdefault" title="设置为默认">设置为默认</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>';
                         }
                         return '<div class="layui-btn-group"><a class="layui-btn layui-btn-sm layui-btn-danger" lay-event="release" title="隐藏">隐藏</a><a class="layui-btn layui-btn-sm " lay-event="edit" title="编辑"><i class="layui-icon layui-icon-edit"></i></a><a class="layui-btn layui-btn-sm layui-btn-danger " lay-event="del" title="删除"><i class="layui-icon layui-icon-delete"></i></a></div>';
                     }
-                }, fixed: "right", align: "center"}
+                }, fixed: "right", align: "center",width: 250}
             ]]
         });
         //搜索
@@ -112,7 +106,7 @@
         }
 
         $(".add_btn").on('click',function () {
-            addoredit('/admin/Country/add','添加');
+            addoredit('/admin/Nation/add','添加');
         });
         //列表操作
         table.on('tool(table)', function (obj) {
@@ -121,7 +115,7 @@
             if (layEvent === 'release') {
             	layer.confirm('确定操作当前国家信息？', {icon: 3, title: '提示'}, function (index) {
                     layer.close(index);
-                    $.post("/admin/Country/setDefult",{'id':data.id,'type':'status'},function(data){
+                    $.post("/admin/Nation/setDefult",{'id':data.number,'type':'status'},function(data){
                         window.parent.toast(data.info,data.code);
                         if(data.code === 0)
                             tablist.reload();
@@ -130,18 +124,18 @@
             } else if (layEvent === 'del') { //删除
                 layer.confirm('确定删除这条数据？', {icon: 3, title: '提示'}, function (index) {
                     layer.close(index);
-                    $.post("/admin/Country/delete",{'id':data.id},function(data){
+                    $.post("/admin/Nation/delete",{'id':data.number},function(data){
                         window.parent.toast(data.info,data.code);
                         if(data.code === 0)
                             tablist.reload();
                     });
                 });
             } else if (layEvent === 'edit') { //编辑
-                addoredit('/admin/Country/edit/id/'+data.id,'修改');
+                addoredit('/admin/Nation/edit/id/'+data.number,'修改');
             } else if (layEvent === 'isdefault') {
                 layer.confirm('确定设置当前国家信息为默认显示信息？', {icon: 3, title: '提示'}, function (index) {
                     layer.close(index);
-                    $.post("/admin/Country/setDefult",{'id':data.id,'type':'isd'},function(data){
+                    $.post("/admin/Nation/setDefult",{'id':data.number,'type':'isd'},function(data){
                         window.parent.toast(data.info,data.code);
                         if(data.code === 0)
                             tablist.reload();

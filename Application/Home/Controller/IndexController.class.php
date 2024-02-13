@@ -45,12 +45,16 @@ class IndexController extends Controller
         $extra = require_once APP_PATH . 'Common/Conf/extra.php';
 
         //获取国家
-        $country = M('country')->where('status=1')->field("id,country_name as name,country_enname as ename,code,word,isd")->select();
+        if ($this->config['id'] == 2) {
+            $country = M('nation')->where('status=1')->field("code,name,isdefault as isd")->select();
+            $this->assign('country',$country);
+        }
+        
         //获取项目
         $pro = M('project')->where('type='.$this->config['id'])->field('name,vals as proid,status')->select();
         $this->assign('extra',$extra);
 
-        $this->assign('country',$country);
+        
         $this->assign('project',$pro);
         $this->assign('config',$config);
         $this->assign('notice',$notice);
@@ -149,7 +153,7 @@ class IndexController extends Controller
                             }
                         }
                     }else{
-                        $api = $config['api'].'?act=getPhone&token='.$config['token'].'&iid='.$config['project'].'&did=&country='.$config['nation'].'&operator=&provi=&city=&seq=0&mobile=';
+                        $api = $config['api'].'?act=getPhone&token='.$config['token'].'&iid='.$project.'&did=&country='.$country.'&operator=&provi=&city=&seq=0&mobile='.$phone;
                         $res = $this->phone($api);
                         $s = explode('|',$res);
                         if ($s[0] == 1) {
