@@ -188,7 +188,7 @@
                                             style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">项目</label>
                                         <div class="layui-input-block">
                                             <select name="project" lay-verify="required" id="project" style="border-top-right-radius: 30px;border-bottom-right-radius: 30px; background-color:#222; color:white;border:1px solid #666;">
-                                                <option value="">-选择-</option>
+                                                <!-- <option value="">-选择-</option> -->
                                                 <foreach name="project" item="vo" >
                                                     <if condition="$vo.status == 1">
                                                         <option value="{$vo.proid}" selected>{$vo.name}</option>
