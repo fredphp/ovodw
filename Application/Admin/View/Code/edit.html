@@ -77,7 +77,7 @@
 		layedit = layui.layedit,
         layer = parent.layer === undefined ? layui.layer : top.layer;
         var $ = layui.jquery;
-        let aid = {$info.aid};
+        let aid = {$config.id};
         form.on('radio', function(data){
             let dom = $('.lfiapi-'+aid);
             dom.addClass('lfiapi-'+data.value);
