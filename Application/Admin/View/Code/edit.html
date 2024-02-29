@@ -77,7 +77,18 @@
 		layedit = layui.layedit,
         layer = parent.layer === undefined ? layui.layer : top.layer;
         var $ = layui.jquery;
-        
+        let aid = {$info.aid};
+        form.on('radio', function(data){
+            let dom = $('.lfiapi-'+aid);
+            dom.addClass('lfiapi-'+data.value);
+            dom.removeClass('lfiapi-'+aid);
+            if (data.value == 1) {
+                dom.show();
+            } else {
+                dom.hide();
+            }
+            aid = data.value;
+        });
 // laydate.render({
 //                           elem: '#addtime'
 //                           ,theme: '#01AAED'
