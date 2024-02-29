@@ -13,7 +13,7 @@ class IndexController extends Controller
     protected $pkey;
     protected $cptime;
     protected $region;
-    protected $pointPhone,$country,$project,$oneapi,$twoapi;
+    protected $pointPhone,$country,$project,$oneapi,$twoapi,$etype;
     protected $err = [
             '-1'    => 'Token不存在',
             '-2'    => 'pkey无效',
@@ -108,6 +108,9 @@ class IndexController extends Controller
             $flag = true;
             $country = $_POST['country'] ? $_POST['country'] : (isset($config['nation']) ? $config['nation'] : 'CN');
             $project = $_POST['project'] ? $_POST['project'] : $config['project'];
+            if ($config['id'] == 1 && !empty($rows['projectid'])) {
+                $project = $rows['projectid'];
+            }
             $phone = $_POST['phone'] ? $_POST['phone'] : '';
             switch ($this->config['id']) {
                 case 1:
@@ -118,7 +121,8 @@ class IndexController extends Controller
                         $arr['msg'] = '获取成功';
                         $flag = false;
                     }else{
-                        $api = $config['api'].'/sms/?api=getPhone&token='.$config['token'].'&sid='.$project.'&country_code='.$country.'&phone='.$phone;
+                        $etype = $_POST['etype'];
+                        $api = $config['api'].'/sms/?api=getPhone&token='.$config['token'].'&sid='.$project.'&country_code='.$country.'&phone='.$phone.'&ascription='.$etype;
                         $res = $this->phone($api);
                         $s= json_decode($res,true);
                         // if(strpos($res, 'ERROR') !== 'false'){
@@ -220,6 +224,10 @@ class IndexController extends Controller
             $project = !empty($_POST['project']) ? $_POST['project'] : (isset($config['project']) ? $config['project'] : '');
             $country = !empty($_POST['country']) ? $_POST['country'] : 'CN';
             $pointphone = !empty($_POST['phone']) ? $_POST['phone'] :'';
+            $rows = M('code')->where(array('code' => $codes))->find();
+            if ($config['id'] == 1 && !empty($rows['projectid'])) {
+                $project = $rows['projectid'];
+            }
             $this->project = $project;
             $this->country = $country;
             $this->codes = $codes;
@@ -233,7 +241,8 @@ class IndexController extends Controller
             // http://服务器地址/sms/?api=getMessage&token=用户令牌&sid=项目ID&country_code=国家代码&phone=手机号
             switch ($this->config['id']) {
                 case 1:
-                    $api = $config['api'].'/sms/?api=getMessage&token='.$config['token'].'&sid='.$this->project.'&country_code='.$this->country.'&phone='.$phone;
+                    $this->etype = $_POST['etype'];
+                    $api = $config['api'].'/sms/?api=getMessage&token='.$config['token'].'&sid='.$this->project.'&country_code='.$this->country.'&phone='.$phone.'&ascription='.$this->etype;
                     break;
                 case 2:
                     $api = $config['api'].'?act=getPhoneCode&token='.$config['token'].'&pkey='.$this->pkey.'&country='.$this->country.'&mobile='.$this->phone;

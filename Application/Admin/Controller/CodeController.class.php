@@ -18,10 +18,17 @@ class CodeController extends AdminBaseController
     public function __construct()
     {
         parent::__construct();
+        ini_set('memory_limit', '256M');
         $this->table = 'code';
         $this->addTemplet = 'Code/add';
         $this->editTemplet = 'Code/edit';
         $this->indexTemplet = 'Code/index';
+        $config = M('api')->where('isuse=1')->find();
+        $this->assign('config',$config);
+        if ($config['id'] == 1) {
+            $project = M('project')->where('type',$config['id'])->where('status',1)->select();
+            $this->assign('project',$project);
+        }
         $this->whereList = [];
     }
 
@@ -80,6 +87,11 @@ class CodeController extends AdminBaseController
     public function getcode(){
         $num = I('num');
         $length = I('length');
+        $aid = I('aid');
+        $projectid = I('projectid');
+        if ($aid != 1) {
+            $projectid = '';
+        }
         $codes = array();
         for ($i=0;$i<$num;$i++){
             $codes[$i]['code'] = $this->randomkeys($length);
@@ -88,7 +100,8 @@ class CodeController extends AdminBaseController
         $filename = "Public/". $name;
         foreach ($codes as $k => $v){
             $codes[$k]['addtime'] = date('Y-m-d H:i:s',time());
-
+            $codes[$k]['aid'] = $aid;
+            $codes[$k]['projectid'] = $projectid;
             $code[] = $v['code'] . "\n";
         }
         file_put_contents($filename, $code);

@@ -21,6 +21,30 @@
         </div>
     </div>
     <div class="layui-form-item">
+        <label class="layui-form-label">接口</label>
+        <div class="layui-input-block">
+            <if condition="$config.id eq 1">
+                <input type="radio" name="aid" value="1" title="1号接口" checked>
+                <input type="radio" name="aid" value="2" title="2号接口">
+            <else />
+                <input type="radio" name="aid" value="1" title="1号接口">
+                <input type="radio" name="aid" value="2" title="2号接口" checked>
+            </if>
+        </div>
+    </div>
+    <div class="layui-form-item lfiapi-{$config.id}">
+        <label class="layui-form-label">绑定项目</label>
+        <div class="layui-input-block">
+            <select name="projectid" lay-filter="project">
+                <option value="">请选择绑定项目</option>
+                <volist name="project" id="item">
+                    <option value="{$item.vals}">{$item.name}</option>
+                </volist>
+            </select>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
         <label class="layui-form-label" for="code">长度</label>
         <div class="layui-input-block">
             <input type="number" id="length" placeholder="请输入卡密长度"  autocomplete="off" value=""  class="layui-input">
@@ -43,6 +67,23 @@
 		upload = layui.upload,
             layedit = layui.layedit,
         layer = parent.layer === undefined ? layui.layer : top.layer;
+        var $ = layui.jquery;
+        let aid = {$config.id};
+        let projectid = '';
+        form.on('radio', function(data){
+            let dom = $('.lfiapi-'+aid);
+            dom.addClass('lfiapi-'+data.value);
+            dom.removeClass('lfiapi-'+aid);
+            if (data.value == 1) {
+                dom.show();
+            } else {
+                dom.hide();
+            }
+            aid = data.value;
+        });
+        form.on('select(project)', function(data){
+            projectid = data.value
+        }); 
 
         $("#btn").click(function(){
             var num = $("#num").val();
@@ -51,8 +92,11 @@
                 layer.msg('请填全信息');
                 return false;
             }
+            if (aid != 1) {
+                projectid = '';
+            }
             let index = layer.msg('生成中，请稍候',{icon: 16,time:false});
-            $.post('/admin/code/getcode',{num:num,length:length},function(res){
+            $.post('/admin/code/getcode',{num:num,length:length,aid:aid,projectid:projectid},function(res){
                 layer.close(index);
                 if(0 === res.code){
                     layer.msg(res.msg,{icon:6,time:2000});

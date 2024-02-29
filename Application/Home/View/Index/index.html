@@ -161,6 +161,30 @@
             border-top: 1px solid #ccc;
             margin-top: 10px;
         }
+        .layui-form-radio.layui-form-radioed i {
+            border-color: #1E9FFF;
+            background-color: #1E9FFF;
+            border-radius: 40%;
+            border: 1px solid #1E9FFF;
+        }
+        .layui-anim.layui-icon {
+            width: 10px; 
+            height: 10px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+        }
+        .layui-form-radio.layui-form-radioed i:before {
+            color: #1E9FFF;
+        }
+        .layui-form-pane .layui-form-radio, .layui-form-pane .layui-form-switch {
+            margin-left: 0px;
+        }
+        .layui-form-pane .layui-form-radio, .layui-form-pane .layui-form-switch:first-child{
+            margin-left: 5px;
+        }
+        .layui-form-radio {
+            padding-right: 0;
+        }
     </style>
 </head>
 
@@ -230,6 +254,16 @@
                                                 placeholder="如需指定手机号，请输入手机号码">
                                         </div>
                                     </div>
+                                    <if condition="$config.id == 1">
+                                        <div class="layui-form-item">
+                                            <label class="layui-form-label" style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">提取类型</label>
+                                            <div class="layui-input-block">
+                                              <input type="radio" name="etype" value="0" title="不限" lay-filter="etype" checked>
+                                              <input type="radio" name="etype" value="2" title="实卡" lay-filter="etype">
+                                              <input type="radio" name="etype" value="1" title="虚拟卡" lay-filter="etype">
+                                            </div>
+                                        </div>
+                                    </if>
                                     <div class="layui-form-item">
                                         <label class="layui-form-label"
                                             style="border-top-left-radius: 30px;border-bottom-left-radius: 30px; background-color:#222; color:white;border:1px solid #666;">卡密</label>
@@ -337,9 +371,14 @@
 <script type="text/javascript" src="js/layer.js"></script>
 <script type="text/javascript" src="js/clipboard.min.js"></script>
 <script>
-    layui.use(['element','layer',], function () {
-        var element = layui.element,
+    let etype = 0;
+    layui.use(['element','layer','form'], function () {
+        var element = layui.element,form = layui.form,
         layer = parent.layer === undefined ? layui.layer : top.layer;
+        form.render();
+        form.on('radio(etype)', function(data){
+          etype = data.value;
+        });
     });
 
     time = $("#time").val();
@@ -355,6 +394,8 @@
     let proid = '';
     let country = '';
     let pointPhone = '';
+    
+    
     $("#btn").click(function(){
             code = $("#code").val();
             time = $("#time").val();
@@ -370,7 +411,7 @@
             $.post('/home/index/getcode',{code:code},function(res){
                 if(res.code==0){
                     var index = layer.msg("<span style='color: black'>"+res.msg+"，请稍后...</span>",{icon:16,time:false});
-                    $.post('/home/index/getphone',{code:code,phone:pointPhone,project:proid,country:country},function(result){
+                    $.post('/home/index/getphone',{code:code,phone:pointPhone,project:proid,country:country,etype:etype},function(result){
                         layer.close(index);
                         if(result.code==0){
                             var msg = result.msg;
@@ -446,7 +487,7 @@
 
     function getCodes()
     {
-        $.post('/home/index/getcodes',{phone:sphone,code:code,key:pk,region:region,project:proid,country:country,pointphone:pointPhone},function(result1){
+        $.post('/home/index/getcodes',{phone:sphone,code:code,key:pk,region:region,project:proid,country:country,pointphone:pointPhone,etype:etype},function(result1){
             if(result1.code == 0){
                 clearTimeout(set);
                 clearTimeout(sets);

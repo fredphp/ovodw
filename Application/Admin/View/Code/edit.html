@@ -19,6 +19,24 @@
 	<div class="layui-input-block">
 		<input type="text" name="code" id="code" placeholder="卡密"  autocomplete="off"  maxlength="255" value=""  class="layui-input">
 	</div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">接口</label>
+        <div class="layui-input-block">
+            <input type="radio" name="aid" value="1" title="1号接口" checked>
+            <input type="radio" name="aid" value="2" title="2号接口">
+        </div>
+    </div>
+    <div class="layui-form-item lfiapi-{$config.id}">
+        <label class="layui-form-label">绑定项目</label>
+        <div class="layui-input-block">
+            <select name="projectid" lay-filter="project">
+                <option value="">请选择绑定项目</option>
+                <volist name="project" id="item">
+                    <option value="{$item.vals}">{$item.name}</option>
+                </volist>
+            </select>
+        </div>
+    </div>
 <!--</div><div class="layui-form-item">-->
 <!--	<label class="layui-form-label" >状态</label>-->
 <!--	<div class="layui-input-block">-->
@@ -58,7 +76,7 @@
 		upload = layui.upload,
 		layedit = layui.layedit,
         layer = parent.layer === undefined ? layui.layer : top.layer;
-
+        var $ = layui.jquery;
         
 // laydate.render({
 //                           elem: '#addtime'
@@ -78,6 +96,8 @@ form.val("form1",{
                     'status': '{$info.status}',
                     'addtime': '{$info.addtime}',
                     'phone': '{$info.phone}',
+                    'aid':'{$info.aid}',
+                    'projectid':'{$info.projectid}',
                     'usertime': '{$info.usertime}'});
 
         form.on("submit(addData)",function(data){

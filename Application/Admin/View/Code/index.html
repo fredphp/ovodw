@@ -20,7 +20,7 @@
                 <input type="search" name="id" autocomplete="off" class="layui-input" placeholder="ID"/>
             </div>
             <div class="layui-inline">
-                <div class="layui-input-inline" style="width: 50%">
+                <div class="layui-input-inline" style="width: 25%">
                 <input type="search" name="code" autocomplete="off" class="layui-input" placeholder="code"/>
             </div>
             <div class="layui-input-inline" style="width: 16%">
@@ -28,7 +28,6 @@
                     <option value="">状态</option>
                     <option value='0' >未使用</option>
                     <option value='1' >已使用</option>
-
                 </select>
             </div>
 
@@ -85,12 +84,22 @@
             id: "table",
             cols: [[
                 {type: "checkbox", fixed: "left", width: 50},
-{field:'id',title:'ID',align:'center',width:80},{field:'code',title:'卡密',align:'center'},{field:'status',title:'状态',align:'center',templet:function(d){
-                if(d.status === '0') return '未使用';
-if(d.status === '1') return '已使用';
-
-            },width:110},{field:'addtime',title:'添加时间',align:'center',width:160},{field:'phone',title:'使用手机号',align:'center'},{field:'sms',title:'短信内容',align:'center'},{field:'usertime',title:'使用时间',align:'center',width:160},
-{title: '操作',templet:'#tool', width:130,fixed: "right", align: "center"}
+                {field:'id',title:'ID',align:'center',width:80},
+                {field:'aid',title:'接口',align:'center', width: 80,templet:function(e){
+                    if(e.aid === '1') return '1号接口';
+                    if(e.aid === '2') return '2号接口';
+                }},
+                {field:'code',title:'卡密',align:'center', width: 140},
+                {field:'status',title:'状态',align:'center',templet:function(d){
+                    if(d.status === '0') return '未使用';
+                    if(d.status === '1') return '已使用';
+                },width:80},
+                {field:'projectid',title:'项目ID',align:'center', width: 100},
+                {field:'addtime',title:'添加时间',align:'center',width:180},
+                {field:'phone',title:'使用手机号',align:'center', width: 160},
+                {field:'sms',title:'短信内容',align:'center'},
+                {field:'usertime',title:'使用时间',align:'center',width:180},
+                {title: '操作',templet:'#tool', width:130,fixed: "right", align: "center"}
             ]]
         });
         //搜索
