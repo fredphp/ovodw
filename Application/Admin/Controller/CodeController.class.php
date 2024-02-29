@@ -25,7 +25,7 @@ class CodeController extends AdminBaseController
         $this->indexTemplet = 'Code/index';
         $config = M('api')->where('isuse=1')->find();
         $this->assign('config',$config);
-        $project = M('project')->where('type',$config['id'])->where('status',1)->select();
+        $project = M('project')->where('type',$config['id'])->select();
             $this->assign('project',$project);
         $this->whereList = [];
     }

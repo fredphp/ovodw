@@ -379,6 +379,20 @@
         form.on('radio(etype)', function(data){
           etype = data.value;
         });
+        $('#code').on('keyup',function(){
+            var keyword = $(this).val();
+            $.post('/home/index/getcode',{code:keyword},function(res){
+                if(res.code==0){
+                    projectid = res.project;
+                    console.log(projectid);
+                    $("#project").val(projectid);
+                    form.render('select');
+                } else {
+                    $("#project").val($("#project option:first").val());
+                    form.render('select');
+                }
+            });
+        })
     });
 
     time = $("#time").val();
@@ -394,7 +408,8 @@
     let proid = '';
     let country = '';
     let pointPhone = '';
-    
+    let projectid = '';
+
     
     $("#btn").click(function(){
             code = $("#code").val();

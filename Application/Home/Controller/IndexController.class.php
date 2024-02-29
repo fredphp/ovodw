@@ -89,6 +89,7 @@ class IndexController extends Controller
                 }else{
                     $arr['code'] = 0;
                     $arr['msg'] = '卡密输入正确，正在获取手机号';
+                    $arr['project'] = $res['projectid'];
                 }
             }else{
                 $arr['code'] = 1;
