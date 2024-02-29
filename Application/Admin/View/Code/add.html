@@ -20,7 +20,7 @@
             <input type="number" id="num" placeholder="请输入数量"  autocomplete="off" value=""  class="layui-input">
         </div>
     </div>
-    <div class="layui-form-item">
+<!--     <div class="layui-form-item">
         <label class="layui-form-label">接口</label>
         <div class="layui-input-block">
             <if condition="$config.id eq 1">
@@ -31,7 +31,7 @@
                 <input type="radio" name="aid" value="2" title="2号接口" checked>
             </if>
         </div>
-    </div>
+    </div> -->
     <div class="layui-form-item lfiapi-{$config.id}">
         <label class="layui-form-label">绑定项目</label>
         <div class="layui-input-block">
@@ -70,17 +70,6 @@
         var $ = layui.jquery;
         let aid = {$config.id};
         let projectid = '';
-        form.on('radio', function(data){
-            let dom = $('.lfiapi-'+aid);
-            dom.addClass('lfiapi-'+data.value);
-            dom.removeClass('lfiapi-'+aid);
-            if (data.value == 1) {
-                dom.show();
-            } else {
-                dom.hide();
-            }
-            aid = data.value;
-        });
         form.on('select(project)', function(data){
             projectid = data.value
         }); 

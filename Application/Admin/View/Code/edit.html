@@ -19,13 +19,13 @@
 	<div class="layui-input-block">
 		<input type="text" name="code" id="code" placeholder="卡密"  autocomplete="off"  maxlength="255" value=""  class="layui-input">
 	</div>
-    <div class="layui-form-item">
+ <!--    <div class="layui-form-item">
         <label class="layui-form-label">接口</label>
         <div class="layui-input-block">
             <input type="radio" name="aid" value="1" title="1号接口" checked>
             <input type="radio" name="aid" value="2" title="2号接口">
         </div>
-    </div>
+    </div> -->
     <div class="layui-form-item lfiapi-{$config.id}">
         <label class="layui-form-label">绑定项目</label>
         <div class="layui-input-block">
@@ -79,14 +79,14 @@
         var $ = layui.jquery;
         let aid = {$config.id};
         form.on('radio', function(data){
-            let dom = $('.lfiapi-'+aid);
-            dom.addClass('lfiapi-'+data.value);
-            dom.removeClass('lfiapi-'+aid);
-            if (data.value == 1) {
-                dom.show();
-            } else {
-                dom.hide();
-            }
+            // let dom = $('.lfiapi-'+aid);
+            // dom.addClass('lfiapi-'+data.value);
+            // dom.removeClass('lfiapi-'+aid);
+            // if (data.value == 1) {
+            //     dom.show();
+            // } else {
+            //     dom.hide();
+            // }
             aid = data.value;
         });
 // laydate.render({

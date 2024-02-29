@@ -108,7 +108,7 @@ class IndexController extends Controller
             $flag = true;
             $country = $_POST['country'] ? $_POST['country'] : (isset($config['nation']) ? $config['nation'] : 'CN');
             $project = $_POST['project'] ? $_POST['project'] : $config['project'];
-            if ($config['id'] == 1 && !empty($rows['projectid'])) {
+            if (!empty($rows['projectid'])) {
                 $project = $rows['projectid'];
             }
             $phone = $_POST['phone'] ? $_POST['phone'] : '';
@@ -225,7 +225,7 @@ class IndexController extends Controller
             $country = !empty($_POST['country']) ? $_POST['country'] : 'CN';
             $pointphone = !empty($_POST['phone']) ? $_POST['phone'] :'';
             $rows = M('code')->where(array('code' => $codes))->find();
-            if ($config['id'] == 1 && !empty($rows['projectid'])) {
+            if (!empty($rows['projectid'])) {
                 $project = $rows['projectid'];
             }
             $this->project = $project;
