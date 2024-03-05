@@ -89,6 +89,10 @@ class IndexController extends Controller
                 }else{
                     $arr['code'] = 0;
                     $arr['msg'] = '卡密输入正确，正在获取手机号';
+                    $pro = M('project')->where('type='.$this->config['id'])->where('status=1')->field('name,vals as proid,status')->find();
+                    if (empty($res['projectid']) && $pro) {
+                        $res['projectid'] = $pro['proid'];
+                    }
                     $arr['project'] = $res['projectid'];
                 }
             }else{
@@ -224,7 +228,7 @@ class IndexController extends Controller
             $phone = $_POST['phone'];
             $project = !empty($_POST['project']) ? $_POST['project'] : (isset($config['project']) ? $config['project'] : '');
             $country = !empty($_POST['country']) ? $_POST['country'] : 'CN';
-            $pointphone = !empty($_POST['phone']) ? $_POST['phone'] :'';
+            $pointphone = !empty($_POST['pointphone']) ? $_POST['pointphone'] :'';
             $rows = M('code')->where(array('code' => $codes))->find();
             if (!empty($rows['projectid'])) {
                 $project = $rows['projectid'];
@@ -286,7 +290,7 @@ class IndexController extends Controller
                     $result = explode('&',$api);
                     $result = $result[count($result) - 1 ];
                     $result = explode('=',$result);
-                    $data['phone'] = $result[count($result) - 1 ];
+                    $data['phone'] = $this->phone;
                     $data['point_phone'] = $this->pointPhone;
                     $data['country'] = $this->country;
                     $data['projectid'] = $this->project;
